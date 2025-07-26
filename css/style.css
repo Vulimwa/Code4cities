@@ -1,0 +1,89 @@
+html {
+  /* max-width: 1280px; */
+  margin: 0;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter',Sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    max-width: 100%;
+    /* padding-top: 90px; */
+
+
+
+}
+
+section {
+    margin-top: 68px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:'Playfair Display', serif;
+}
+
+#logo {
+    height: 36px;
+    width:72px;
+    object-fit: cover;
+}
+#navbar {
+    padding:16px;
+    padding-top: 0;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    max-width:100%;
+    margin-top:0;
+    width: 100%;
+    display: flex;
+}
+
+nav {
+    display: flex;
+}
+
+#navbar li {
+    font-family: 'Playfair Display',serif;
+    list-style: none;
+    color: navy;
+    display:inline-block;
+    margin: 0 60px;
+    padding: 8px 0;
+    gap: 36px;
+    position: relative;
+    text-decoration: none;
+    padding: 2px 0;
+    cursor: pointer;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+
+}
+
+li::after {
+content:"";
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0%;
+height: 4px;
+background-color:gold;
+transition: width 0.3s ease;
+}
+
+li:hover::after{
+    width: 100%;
+}
