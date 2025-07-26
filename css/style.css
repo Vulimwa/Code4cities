@@ -13,9 +13,7 @@ body {
     overflow-x: hidden;
     overscroll-behavior: none;
     max-width: 100%;
-    /* padding-top: 90px; */
-
-
+    line-height:16px;
 
 }
 
@@ -28,9 +26,11 @@ font-family:'Playfair Display', serif;
 }
 
 #logo {
-    height: 36px;
+    height: 42px;
     width:72px;
     object-fit: cover;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 2px;
 }
 #navbar {
     padding:16px;
@@ -47,6 +47,12 @@ font-family:'Playfair Display', serif;
     margin-top:0;
     width: 100%;
     display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: hsl(210 13% 91%);
+    height: 4rem;
 }
 
 nav {
@@ -54,23 +60,36 @@ nav {
 }
 
 #navbar li {
-    font-family: 'Playfair Display',serif;
+    font-family: 'Inter',sans-serif;
     list-style: none;
-    color: navy;
-    display:inline-block;
-    margin: 0 60px;
-    padding: 8px 0;
-    gap: 36px;
+    color:hsl(210 9% 45%) ;
+    display:inline-flex;
+    margin-left: 24px;
+    padding:0;
     position: relative;
     text-decoration: none;
     padding: 2px 0;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    box-sizing: border-box;
 
+}
 
+#navbar-list li {
+    max-width:  70%;
+}
+
+#navbar-list li:last-child {
+    margin-right: 80px;
+    margin-left: 24px; 
+}
+
+#navbar li:hover {
+  color: #141d2e;
 }
 
 li::after {
@@ -81,9 +100,14 @@ bottom: 0;
 width: 0%;
 height: 4px;
 background-color:gold;
+box-sizing: border-box;
 transition: width 0.3s ease;
 }
 
 li:hover::after{
     width: 100%;
+}
+
+#logo-img{
+    margin-left: 40px;
 }
