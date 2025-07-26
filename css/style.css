@@ -65,7 +65,6 @@ nav {
     color:hsl(210 9% 45%) ;
     display:inline-flex;
     margin-left: 24px;
-    padding:0;
     position: relative;
     text-decoration: none;
     padding: 2px 0;
@@ -109,5 +108,54 @@ li:hover::after{
 }
 
 #logo-img{
-    margin-left: 40px;
+    margin-left: 60px;
+     padding: 2px 0; 
+}
+
+#hero-section{
+  background-image: url('/assets/images/image-two.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* full screen height */
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay {
+  background-color: hsl(211deg 61% 16% / 20%); 
+  padding: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(16, 40, 66, 0.75); 
+  pointer-events: none; 
+  z-index: 1; 
+}
+
+div h1{
+    font-size: 4rem;
+    border-color:hsl(210 13% 91%);
+    line-height: 1;
+    color: rgb(255 255 255);
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom:0;
+}
+
+.code-cities{
+    margin:0 auto;
+    padding: 0;
+}
+.greetings{
+    margin: 0 auto;
+    padding:0;
 }
