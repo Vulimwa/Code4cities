@@ -17,7 +17,7 @@ body {
 
 }
 
-section {
+#hero-section {
     margin-top: 68px;
 }
 
@@ -128,7 +128,6 @@ li:hover::after{
 }
 
 .overlay {
-  background-color: hsl(211deg 61% 16% / 20%); 
   padding: 2rem;
   border-radius: 10px;
   position: absolute;
@@ -141,21 +140,204 @@ li:hover::after{
   z-index: 1; 
 }
 
-div h1{
-    font-size: 4rem;
-    border-color:hsl(210 13% 91%);
-    line-height: 1;
-    color: rgb(255 255 255);
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;
-    margin-bottom:0;
+
+.animated-heading-keyframes {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 700;
+  color: rgb(255 255 255);
+  overflow: hidden; 
+  border-color:hsl(210 13% 91%);
+   margin-bottom: 0;
 }
 
-.code-cities{
-    margin:0 auto;
-    padding: 0;
+.word-part-keyframes {
+  display: block;
+  opacity: 0;
+  transform: translateY(100%) rotate(5deg); 
+  animation: text-fade-in 1s ease-out forwards;
 }
-.greetings{
+
+
+@keyframes text-fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%) rotate(5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0);
+  }
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-1 {
+  animation-delay: 0.5s; 
+}
+
+.delay-2 {
+  animation-delay: 1s; 
+}
+
+.overlay div{
     margin: 0 auto;
-    padding:0;
+}
+
+#greetings{
+    margin-top: 100px;
+}
+
+#hero-cta{
+    font-family:'Inter',serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#explore button{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(51, 100%, 50%);
+    border: 1px solid hsl(51, 100%, 50%,0.7) ;
+    color: #141d2e;
+    width:240px;
+    padding: 8px;
+    border-radius: 24px;
+    cursor:pointer;
+    margin-top: 40px;
+
+}
+
+#explore div:hover{
+background-color: white;
+}
+
+
+#discover{ 
+    margin-top: 80px;
+    background-color: rgba(16, 40, 66, 0.85); 
+    width: 240px;
+    padding: 16px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    border-radius:16px;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+#arrow{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background-color:rgba(17, 37, 59, 0.479) ;
+  border: 1px solid hsl(0, 0%, 75%);
+  margin-top: 16px;
+}
+
+#mission-div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 84px 0 84px;
+}
+
+#mission-description{
+  width: 50%;
+  justify-content: left;
+  align-items:center;
+  text-align: left;
+}
+#mission-img{
+  width: 50%;
+}
+
+#mission-section{
+  margin-top: 48px;
+}
+
+#mission-cta div{
+  font-family: 'Playfair Display', serif;
+  line-height: 1rem;
+  font-size: 3rem;
+  color:rgba(16, 40, 66);
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+#my-mission{ 
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color:rgba(16, 40, 66);
+  padding: 10px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(17, 37, 59, 0.479);
+  border-radius: 8px;
+  width: 78px;
+  margin-left:8px ;
+}
+
+#underline{
+  background-color: gold;
+  width: 150px;
+  height: 4px;
+  margin-top:15px;
+  position:relative;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+
+}
+
+#mission-description p{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:rgba(17, 37, 59, 0.7);
+  line-height: 29px;
+  line-break:normal;
+}
+
+#stats-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:10px;
+  margin-top:16px;
+
+}
+
+#stats-cards div:last-child{
+  margin-right: 36px;
+  margin-left:0;
+}
+
+.card-stats h4{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color:rgba(17, 37, 59,0.7);
+}
+
+#stats-cards h2,h4{
+  font-family:serif;
+  text-align: center;
+}
+
+.card-stats{
+  box-sizing: border-box;
+  background-color: white;
+  width: 180px;
+  height: 100px;
+  box-shadow: 0 8px 20px #a2a2a21a;
+  border: 1px solid rgba(17, 37, 59,0.1);
+  border-radius: 8px;
 }
