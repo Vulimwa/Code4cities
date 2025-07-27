@@ -56,6 +56,10 @@ font-family:'Playfair Display', serif;
     border-bottom:1px solid #e8e8e8af;
 }
 
+#navbar a{
+  text-decoration: none;
+  color:hsl(210 9% 45%);
+}
 #navbar li {
     font-family: 'Inter',sans-serif;
     list-style: none;
@@ -85,6 +89,9 @@ font-family:'Playfair Display', serif;
 }
 
 #navbar li:hover {
+  color: #141d2e;
+}
+#navbar a:hover{
   color: #141d2e;
 }
 
@@ -430,4 +437,57 @@ filter: brightness(0) contrast(60%);
   color: rgb(180, 180, 180);
   font-weight: 400;
   font-size: 1rem;
+}
+
+/* CONTACT PAGE STYLING */
+#contact-hero-section{
+  background-image: url('/assets/images/image-three.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh; /* full screen height */
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  margin-top: 68px;
+}
+
+.contact-overlay {
+  padding: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(16, 40, 66, 0.75); 
+  pointer-events: none; 
+  z-index: 1; 
+}
+
+.contact-hero-description{
+  display: block;
+  margin: 0 auto;
+}
+.contact-hero-description span{
+font-family: 'Playfair Display',serif;
+font-size:3rem;
+font-weight: 700;
+padding:75px 10px 45px 10px;
+margin: 0 auto;
+display: inline-block;
+text-align: center;
+}
+
+.contact-hero-description p{
+  font-family: 'Inter',sans-serif;
+  font-size:1.5rem;
+  line-height:1.95rem;
+  font-weight: 400;
+  margin: 0 auto;
+ color: rgb(251, 249, 249);
 }
