@@ -491,3 +491,82 @@ text-align: center;
   margin: 0 auto;
  color: rgb(251, 249, 249);
 }
+
+#form-contact-section{
+  height:80vh;
+  background-color: white;
+  width: 100%;
+}
+
+#main-contact-section{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+}
+
+#get-in-touch{
+  width: 50%;
+  margin-left: 80px;
+  text-align: left;
+  margin-top: 60px;
+  color: #141d2e;
+}
+
+#get-in-touch h2{
+  color: #141d2e;
+  font-size: 2.6rem;
+}
+
+#get-in-touch p{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:rgba(17, 37, 59, 0.7);
+  line-height: 29px;
+  line-break:normal;
+}
+
+#contact-underline{
+  background-color: rgb(255, 214, 102);
+  width: 100px;
+  height: 4px;
+  margin-top:15px;
+  position:relative;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+#send-message{
+  width:50%;
+  margin-left:80px;
+}
+
+#contact-icons img{
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: rgb(217, 217, 217);
+  border:1px solid rgb(217, 217, 217);
+  border-radius: 8px;
+  
+}
+
+#contact-icons h3,h4{
+  float: right;
+  padding: 0;
+  margin: 0;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+#social-connect-links img{
+  width: 36px;
+  height: 36px;
+  
+}
+#submit-button img{
+width: 36px;
+height: 36px;
+}
+
