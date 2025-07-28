@@ -454,6 +454,7 @@ filter: brightness(0) contrast(60%);
   color: white;
   text-align: center;
   margin-top: 68px;
+  flex-direction: column;
 }
 
 .contact-overlay {
@@ -471,7 +472,10 @@ filter: brightness(0) contrast(60%);
 
 .contact-hero-description{
   display:flex;
+  flex-direction: column;
   margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-hero-description div{
@@ -482,6 +486,9 @@ padding:75px 10px 45px 10px;
 margin: 0 auto;
 display: inline-block;
 text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .contact-hero-description p{
@@ -491,6 +498,10 @@ text-align: center;
   font-weight: 400;
   margin: 0 auto;
   color: rgb(251, 249, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
 }
 
 #form-contact-section{
@@ -541,6 +552,10 @@ width: 100%;
 #send-message{
   width:50%;
   margin-right:40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
 #contact-icons{
   display: flex;
@@ -596,7 +611,7 @@ height: 36px;
 }
 
 #cv-button {
-  margin-top: 24px;
+  margin-top: 48px;
 }
 
 
@@ -637,4 +652,56 @@ display: flex;
   padding-right: 4px;
   display: flex;
   margin-top: 2px;
+}
+
+#connect-online{
+  margin-top:64px;
+  border: 1px solid rgb(217, 216, 216);
+  box-sizing: border-box;
+  background-color: white;
+  width: 280px;
+  height: 120px;
+  box-shadow: 0 8px 20px #a2a2a21a;
+  border-radius: 8px;
+  
+}
+
+#connect-online div{
+color: #141d2e;
+font-size:1.3rem;
+padding:10px;
+font-weight: 600;
+font-family:'Playfair Display',serif;
+}
+
+#social-connect-links{
+  display: flex;
+}
+#social-connect-links img{
+justify-content: space-between;
+align-items:left;
+margin-left: 10px;
+filter: brightness(0) invert(1);
+width:32px;
+height: 32px;
+padding-top:8px;
+object-fit: contain;
+object-fit: cover;
+display: flex;
+flex-direction: row;
+}
+
+#social-connect-links a{
+  background-color: #141d2e;
+  width: 48px;
+  height:48px;
+  border-radius:8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#social-connect-links a:hover{
+background-color:hsl(211deg 61% 16% / 90%);
+transform: matrix(1.05, 0, 0, 1.05, 0, 0)
 }
