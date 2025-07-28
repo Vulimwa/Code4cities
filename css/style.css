@@ -470,10 +470,11 @@ filter: brightness(0) contrast(60%);
 }
 
 .contact-hero-description{
-  display: block;
+  display:flex;
   margin: 0 auto;
 }
-.contact-hero-description span{
+
+.contact-hero-description div{
 font-family: 'Playfair Display',serif;
 font-size:3rem;
 font-weight: 700;
@@ -489,7 +490,7 @@ text-align: center;
   line-height:1.95rem;
   font-weight: 400;
   margin: 0 auto;
- color: rgb(251, 249, 249);
+  color: rgb(251, 249, 249);
 }
 
 #form-contact-section{
@@ -507,7 +508,7 @@ width: 100%;
 
 #get-in-touch{
   width: 50%;
-  margin-left: 80px;
+  margin-left: 40px;
   text-align: left;
   margin-top: 60px;
   color: #141d2e;
@@ -539,9 +540,11 @@ width: 100%;
 }
 #send-message{
   width:50%;
-  margin-left:80px;
+  margin-right:40px;
 }
-
+#contact-icons{
+  display: flex;
+}
 #contact-icons img{
   width: 40px;
   height: 40px;
@@ -549,16 +552,38 @@ width: 100%;
   background-color: rgb(217, 217, 217);
   border:1px solid rgb(217, 217, 217);
   border-radius: 8px;
+  display: inline-block;
   
 }
 
-#contact-icons h3,h4{
-  float: right;
+#contact-icons h3{
   padding: 0;
   margin: 0;
   justify-content: left;
   align-items: left;
   text-align: left;
+  display: inline-block;
+}
+
+#contact-icons h3{
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #141d2e;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-top: 8px;
+
+}
+
+#contact-icons p{
+font-family: 'Inter',sans-serif;
+font-size: 0.9rem;
+color: rgb(175, 174, 174);
+margin-left:20px;
+font-weight: 400;
+margin-top:0;
+margin-bottom: 0;
 }
 #social-connect-links img{
   width: 36px;
@@ -570,3 +595,46 @@ width: 36px;
 height: 36px;
 }
 
+#cv-button {
+  margin-top: 24px;
+}
+
+
+#cv-button button{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: hsl(211 61% 16%);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+
+}
+
+#cv-button img{
+height: 26px;
+width: 26px;
+filter: brightness(0) invert(1);
+justify-content: center;
+align-items: center;
+padding-left: 4px;
+padding-right: 4px;
+display: flex;
+}
+
+#button-cv span{
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+  margin-top: 2px;
+}
