@@ -75,7 +75,7 @@
                 <div id="contact-icons" style="margin-top: 24px;">
                     <img src="/assets/images/phone-lucide-icon.png" alt="email">
                     <div>
-                        <h3>Phone</h3> 
+                        <h3>Phone</h3>
                         <p>+254 706 069 256</p>
                     </div>
                 </div>
@@ -87,58 +87,92 @@
                     </div>
                 </div>
                 <div id="cv-button">
-                    <button id="button-cv"><img src="/assets/images/download-icon.png" alt="download"> <span>Download My CV</span></button>
+                    <button id="button-cv"><img src="/assets/images/download-icon.png" alt="download"> <span>Download My
+                            CV</span></button>
                 </div>
                 <div id="connect-online">
                     <div>Connect Online</div>
                     <div id="social-connect-links">
                         <div>
-                        <a href=""><img src="/assets/images/github-icon.png" alt="email"></a>
+                            <a href=""><img src="/assets/images/github-icon.png" alt="email"></a>
                         </div>
                         <div>
-                        <a href=""><img src="/assets/images/linkedin-lucide-icon.png" alt="email"></a>
+                            <a href=""><img src="/assets/images/linkedin-lucide-icon.png" alt="email"></a>
                         </div>
                         <div>
-                        <a href=""><img src="/assets/images/email-outline-icon.png" alt="email"></a>
+                            <a href=""><img src="/assets/images/email-outline-icon.png" alt="email"></a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div id="send-message">
-             Send message Form 
-                <h2>Send a Message</h2>
-                <form action="https://formspree.io/f/mgvadzqe" method="post">
-                    <div id="personal-info">
-                        <div>
-                            <label for="username">Name*</label> <br>
-                            <input type="text" name="username" id="username" placeholder="Your full name" required>
+                <form action="https://formbold.com/s/oyG8r" method="post" style="margin: 0; padding: 0;">
+                    <div style="padding:26px; text-align:left;">
+                        <h2 style="color:rgb(0, 0, 90); font-family: 'Playfair Display',serif; text-align: left;">Send
+                            Message</h2>
+                        <div id="personal-info">
+                            <div>
+                                <label for="name">Name*</label> <br>
+                                <input type="text" id="username" name="username" placeholder="Your full name" required>
+                            </div>
+                            <div>
+                                <label for="email">Email*</label> <br>
+                                <input type="text" id="user-email" name="user-email"
+                                    placeholder="your.email@example.com" required>
+                            </div>
                         </div>
-                        <div>
-                            <label for="email">Email*</label>
-                            <input type="text" name="email" id="user-email">
+                        <label for="subject">Subject*</label> <br>
+                        <input type="text" id="subject" name="subject" placeholder="Whats this about?" required>
+                        <div style="margin-top: 8px;">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="10"
+                                placeholder="Tell me about your project or idea?"></textarea>
                         </div>
-                    </div>
-                    <div>
-                        <label for="subject">Subject*</label>
-                        <input type="text" name="subject" id="subject" placeholder="What's this about" required>
-                    </div>
-                    <div>
-                        <label for="message">Message*</label>
-                        <textarea name="message" id="message" rows="15">Tell me about your project or idea</textarea>
-                    </div>
-                    <div id="submit-button">
-                        <button type="submit"><img src="/assets/images/send-icon.png" alt="">Send Message</button>
+                        <button type="submit">Send Message</button>
                     </div>
                 </form>
-            </div> 
+            </div>
+
         </div>
     </section>
-    <section id="cta-contacy-section">
-        <!-- Call To action -->
+    <!-- Call To action -->
+    <section id="collaboration-section">
+        <h2>Areas of Collaboration</h2>
+        <div id="collaboration-underline"></div>
+        <div class="cards">
+            <div class="card">
+                <img src="assets/images/urban-tech.webp" alt="Urban Tech Solutions">
+                <div class="card-overlay">
+                    <h3>Urban Tech Solutions</h3>
+                    <p>Digital platforms for city management, community engagement, and smart city initiatives.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/Spatial Analysis & GIS Mapping.webp" alt="GIS & Mapping">
+                <div class="card-overlay">
+                    <h3>GIS & Mapping</h3>
+                    <p>Interactive maps, spatial analysis, and location-based applications for planning and development.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/images/community engagement.webp" alt="Community Projects">
+                <div class="card-overlay">
+                    <h3>Community Projects</h3>
+                    <p>Participatory planning, community mapping, and tools that strengthen local governance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-cta">
+        <h2>Ready to Code for Cities?</h2>
+        <p>Let's create technology that makes cities more livable, sustainable, and equitable.
+            Together,<br> we can build solutions that truly serve communities.
+        </p> 
     </section>
     <!-- Footer -->
-    <footer id="footer-section" style="margin-top: 300px;">
+    <footer id="footer-section" style="margin-top: 70px;">
         <!-- Call To Action -->
         <p id="cta-footer">"Built by a Planner Who Codes."</p>
         <!-- Social Links -->
