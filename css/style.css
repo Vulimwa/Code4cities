@@ -1428,7 +1428,7 @@ p {
   max-width: 1200px;
   width: 100%;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
@@ -1570,7 +1570,7 @@ p {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -1597,11 +1597,11 @@ p {
 }
 
 .quote-icon img {
-  fill:hsl(44 100% 70%) ;
+  filter: sepia(1) saturate(4) hue-rotate(25deg);
   width: 2rem;
   height: 2rem;
   margin-bottom: 1rem;
-  display:block;
+  display: block;
   /* vertical-align: middle; */
 }
 
