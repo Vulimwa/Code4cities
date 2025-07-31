@@ -1924,3 +1924,153 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+/* Skills Display Cards */
+#skills-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 500px;
+}
+
+#programming-tool-header {
+  text-align: left;
+  border-color: (210 13% 91%);
+}
+
+.section-heading {
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-top: -10px;
+  padding-left: 8px;
+  font-size: 1.875rem;
+  color:hsl(211 61% 16%);
+  font-family: 'Playfair Display', serif;
+}
+
+#skill-section-title img {
+  height: 36px;
+  width: 36px;
+  background-color: hsl(211deg 61% 16% / 10%);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin-top: 6px;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color:hsl(210 9% 45%);
+  text-align: left;
+
+}
+
+.skill-card {
+  background-color: white;
+  height: 142px;
+  width: 476px;
+  flex: 0 0 476px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 1.6rem;
+  margin-bottom: 24px;
+
+}
+
+
+.skill-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.skill-card-icon {
+  font-size: 24px;
+}
+
+.skill-card-icon img {
+  height: 30px;
+  width: 30px;
+  background-color: hsl(211deg 61% 16% / 10%);
+  border-radius: 0.35rem;
+  padding: 0.75rem;
+  margin-bottom: 8px;
+}
+
+.skill-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: hsl(211 61% 16%);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+
+.skill-card-subtitle {
+  color: hsl(210 9% 45%);
+  font-size: .875rem;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.progress-container {
+  margin-top: 15px;
+}
+
+.progress-label {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 6px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-left: 14%;
+}
+
+.progress-bar {
+  background-color: hsl(46 29% 97%);
+  border-radius: 8px;
+  height: .5rem;
+  width: 86%;
+  margin-left: 14%;
+  overflow: hidden;
+  position: relative;
+  border-color: hsl(210 13% 91%);
+}
+
+/* Navy Progress (Left) */
+#navy-progress .progress-fill {
+  background-color:#0d1a2b;
+  height: 100%;
+  border-radius: 8px;
+}
+
+/* Gold Progress (Right) */
+#gold-progress .progress-fill {
+  background-color:#FFD700;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.progress-percent {
+  float: right;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  #skills-section {
+    flex-direction: column;
+  }
+}
