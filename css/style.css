@@ -1831,7 +1831,7 @@ p {
   justify-content: center;
   align-items: center;
   background-color: hsl(211deg 61% 16% / 10%);
-  border: 3px solid rgba(1, 1, 48, 0.186);
+  border: 3px dashed rgba(1, 1, 48, 0.186);
 }
 
 #pillar-title {
@@ -1950,7 +1950,7 @@ p {
   padding-top: -10px;
   padding-left: 8px;
   font-size: 1.875rem;
-  color:hsl(211 61% 16%);
+  color: hsl(211 61% 16%);
   font-family: 'Playfair Display', serif;
 }
 
@@ -1966,7 +1966,7 @@ p {
 .section-description {
   font-size: 1rem;
   margin-bottom: 30px;
-  color:hsl(210 9% 45%);
+  color: hsl(210 9% 45%);
   text-align: left;
 
 }
@@ -2050,14 +2050,14 @@ p {
 
 /* Navy Progress (Left) */
 #navy-progress .progress-fill {
-  background-color:#0d1a2b;
+  background-color: #0d1a2b;
   height: 100%;
   border-radius: 8px;
 }
 
 /* Gold Progress (Right) */
 #gold-progress .progress-fill {
-  background-color:#FFD700;
+  background-color: #FFD700;
   height: 100%;
   border-radius: 8px;
 }
@@ -2072,5 +2072,128 @@ p {
 @media (max-width: 768px) {
   #skills-section {
     flex-direction: column;
+  }
+}
+
+/* Community section styling */
+#community-section {
+  padding: 30px 20px;
+  background-color: #fefdf9;
+  text-align: center;
+  color: #001f3f;
+  font-family: 'Inter', sans-serif;
+}
+
+#community-section .intro h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  color: hsl(211 61% 16%);
+  font-family: 'Playfair Display', serif;
+}
+
+#community-section .intro p {
+  max-width: 800px;
+  line-height: 1.625;
+  font-size: 1.125rem;
+  margin: 0 auto 40px;
+  color: hsl(210 9% 45%);
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 2px dashed rgba(128, 128, 128, 0.407);
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.feature-card:hover {
+  transform: scale(1.01);
+}
+
+.feature-card h3 {
+  margin-top: 16px;
+  font-weight: 700;
+  color: hsl(211 61% 16%);
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  margin-top: 8px;
+  color: hsl(210 9% 45%);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+/* Image Styling */
+.image-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+
+/* Ripple Effect */
+.ripple {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.feature-card:hover .ripple {
+  opacity: 0.3;
+  transform: scale(1.6);
+}
+
+.navy-glow {
+  background-color: #001f3f;
+}
+
+.gold-glow {
+  background-color: #FFD700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
   }
 }
