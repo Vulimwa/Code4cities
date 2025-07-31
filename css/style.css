@@ -2387,6 +2387,10 @@ p {
   margin-top: 14px;
 }
 
+#github-icon img {
+  width: 30px;
+  height: 30px;
+}
 .card-footer a {
   color: var(--navy);
   text-decoration: none;
