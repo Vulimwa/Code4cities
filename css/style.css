@@ -1027,7 +1027,6 @@ h4 {
 }
 
 
-/* Optional responsiveness */
 @media (max-width: 1000px) {
   .card {
     width: 90%;
@@ -2267,23 +2266,65 @@ p {
 /* Projects Display Section Styling */
 #projects-section {
   padding: 40px 20px;
-  max-width: 1200px;
   margin: auto;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-section img {
+  background-color: hsl(211deg 61% 16% / 10%);
+  border-radius: .75rem;
+  padding: .5rem;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
 }
 
 #project-section-title {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--navy);
+  color: hsl(211 61% 16%);
   text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 10px;
+  padding-left: 12px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#project-section-title img {
+  background-color: hsl(211deg 61% 16% / 10%);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  height: 36px;
+  width: 36px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+
 }
 
 #project-section-subtext {
   font-size: 1rem;
-  color: var(--light-navy);
+  color: hsl(210 9% 45%);
   text-align: center;
   margin-bottom: 40px;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+
 }
 
 /* Grid */
@@ -2291,12 +2332,15 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Card */
 .project-card {
   background: white;
   border-radius: 12px;
+  border: 1px solid rgba(234, 227, 227, 0.366);
   overflow: hidden;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -2328,25 +2372,40 @@ p {
 /* Badges */
 .badge {
   position: absolute;
-  font-size: 0.75rem;
-  background: var(--light-navy);
-  color: white;
+  font-size: 0.55rem;
+  background-color: #001f3ff9;
+  color: rgb(255 255 255);
   padding: 4px 10px;
   border-radius: 6px;
   font-weight: 600;
   text-transform: uppercase;
+  border-color: hsl(210 13% 91%);
 }
 
-#project-top-tag{
+.plan-badge {
+  background-color: hsl(44 100% 70%);
+  position: absolute;
+  font-size: 0.55rem;
+  color: #001f3ff9;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-color: hsl(210 13% 91%);
+}
+
+
+
+#project-top-tag {
   top: 10px;
   left: 10px;
 }
 
-#project-status{
+#project-status {
   top: 10px;
   right: 10px;
-  background: var(--gold);
   color: #000;
+  background-color: rgb(220 252 231);
 }
 
 /* Content */
@@ -2358,26 +2417,33 @@ p {
 .project-card-content h3 {
   font-size: 1.1rem;
   font-weight: bold;
-  color: var(--navy);
+  color: hsl(211 61% 16%);
   margin-bottom: 8px;
+  font-weight: 700;
 }
 
 .project-card-content p {
   font-size: 0.95rem;
-  color: #444;
+  color: hsl(210 9% 45%);
   margin-bottom: 12px;
+  text-align: left;
+  line-height: 1.35rem;
 }
 
 /* Tags */
 #project-main-tags span {
   display: inline-block;
-  background: #e8ecf3;
-  color: var(--navy);
+  background-color: hsl(46 29% 97%);
+  color: hsl(211 61% 16%);
   font-size: 0.75rem;
-  padding: 4px 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   margin: 4px 4px 0 0;
   border-radius: 6px;
 }
+
 
 /* Footer */
 .project-card-footer {
@@ -2385,15 +2451,153 @@ p {
   justify-content: space-between;
   align-items: center;
   margin-top: 14px;
+  gap: 30px;
+}
+
+.project-card-footer div {
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 280px;
+  height: 40px;
+  border: 1px solid gray;
+
+}
+
+.project-card-footer div:hover {
+  color: rgb(255 255 255);
+  background-color: #001f3ff9;
+}
+
+
+#inner-footer-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#inner-footer-content a {
+  text-decoration: none;
+  color: hsl(211 61% 16%);
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-family: 'Inter', sans-serif;
+
+}
+
+#inner-footer-content:hover #external-link {
+  filter: brightness(0) invert(1);
+}
+
+#inner-footer-content:hover a {
+  color: white;
+}
+
+
+#inner-footer-content img {
+  margin-right: 10px;
 }
 
 #github-icon img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(242, 242, 242, 0.603);
+  border-radius: 8px;
+  padding: 4px;
+  border: 1px solid rgba(249, 249, 249, 0.932);
+  margin-top: 4px;
+
 }
+
+#github-icon img:hover {
+  background-color: hsl(44 100% 70%);
+}
+
 .card-footer a {
   color: var(--navy);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+#external-link {
+  height: 20px;
+  width: 20px;
+}
+
+/* Planning projects styling */
+#planning-projects-section {
+  padding: 40px 20px;
+  margin: auto;
+  background-color: hsl(46 29% 97%);
+}
+
+/* Projects Call to Action Styling */
+#project-cta {
+  border-color: hsl(210 13% 91%);
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+#project-cta-desc {
+  margin: 0 auto;
+}
+
+#project-cta h2,
+p {
+  text-align: center;
+}
+
+#project-cta h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: hsl(211 61% 16%);
+  font-weight: 700;
+  padding: 6px;
+  margin-top: 48px;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+#project-cta-desc p {
+  padding: 4px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: hsl(210 9% 45%);
+  line-height: 1.8rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  width: 832px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#project-cta button {
+  animation-duration: 300ms;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgb(255 255 255);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding: .75rem, .25rem, .75rem, .25rem;
+  background-color: hsl(211 61% 16%);
+  white-space: nowrap;
+  gap: 0.5rem;
+  height: 3.3rem;
+  align-items: center;
+  border-radius: 14px;
+
+}
+
+#project-cta button:hover {
+  background-color: hsl(211deg 61% 16% / 90%);
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0)
 }

@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <!--Navigation -->
     <div id="navbar">
         <!-- Logo section -->
@@ -56,17 +55,17 @@
 
     <!-- Coding projects showcase -->
     <section id="projects-section">
-        <h2 id="project-section-title"><img src="/assets/images/code-icon.png" alt="code-icon"
-                style="background-color: hsl(211deg 61% 16% / 10%); padding: 0.5rem;border-radius: 0.75rem; height: 30px; width: 30px;">Coded
-            Projects</h2>
+        <div class="project-section">
+            <img src="/assets/images/code-icon.png" alt="code-icon">
+            <h2 id="project-section-title">Coded Projects</h2>
+        </div>
         <p id="project-section-subtext">Software applications built with modern web technologies, each addressing
             real-world challenges.
         </p>
-
         <div id="project-grid">
             <!-- Card 1 -->
             <div id="project-card-title" class="project-card">
-                <div id="asili-img" class="card-image">
+                <div class="card-image">
                     <img src="/assets/images/gis-web-application.webp" alt="Asili Atlas">
                     <div class="badge" id="project-top-tag">Web Application</div>
                     <div class="badge" id="project-status">Live</div>
@@ -74,8 +73,7 @@
                 <div class="project-card-content">
                     <h3 id="project-main-title">Asili Atlas</h3>
                     <p id="project-main-desc">Interactive mapping platform connecting communities with essential
-                        resources and
-                        services across Kenya.
+                        resources and services across Kenya.
                     </p>
                     <div id="project-main-tags">
                         <span>React</span>
@@ -84,7 +82,11 @@
                         <span>JavaScript</span>
                     </div>
                     <div class="project-card-footer">
-                        <a href="#">View Project</a>
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/link-external-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
                         <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
                     </div>
                 </div>
@@ -92,7 +94,7 @@
 
             <!-- Card 2 -->
             <div id="project-card-title" class="project-card">
-                <div id="asili-img" class="card-image">
+                <div class="card-image">
                     <img src="/assets/images/wild-guard.webp" alt="WildGuard">
                     <div class="badge" id="project-top-tag">Conservation Tech</div>
                     <div class="badge" id="project-status">In Development</div>
@@ -109,7 +111,11 @@
                         <span>IoT</span>
                     </div>
                     <div class="project-card-footer" id="project-main-footer">
-                        <a href="#">View Project</a>
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/link-external-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
                         <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
                     </div>
                 </div>
@@ -117,7 +123,7 @@
 
             <!-- Card 3 -->
             <div id="project-card-title" class="project-card">
-                <div id="asili-img" class="card-image">
+                <div class="card-image">
                     <img src="/assets/images/sokolink.webp" alt="SokoLink">
                     <div class="badge" id="project-top-tag">Social Commerce</div>
                     <div class="badge" id="project-status">Live</div>
@@ -134,7 +140,11 @@
                         <span>WPA</span>
                     </div>
                     <div class="project-card-footer" id="project-main-footer">
-                        <a href="#">View Project</a>
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/link-external-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
                         <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
                     </div>
                 </div>
@@ -142,7 +152,7 @@
 
             <!-- Card 4 -->
             <div id="project-card-title" class="project-card">
-                <div id="asili-img" class="card-image">
+                <div class="card-image">
                     <img src="/assets/images/skills-image.webp" alt="SoilGuardian">
                     <div class="badge" id="project-top-tag">AgriTech</div>
                     <div class="badge" id="project-status">Prototype</div>
@@ -159,7 +169,11 @@
                         <span>Charts</span>
                     </div>
                     <div class="project-card-footer" id="project-main-footer">
-                        <a href="#">View Project</a>
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/link-external-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
                         <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
                     </div>
                 </div>
@@ -167,7 +181,159 @@
 
         </div>
     </section>
+    <!--Planning projects showcase -->
+    <section id="planning-projects-section">
+        <div class="project-section">
+            <img src="/assets/images/code-icon.png" alt="code-icon">
+            <h2 id="project-section-title">Planning Projects</h2>
+        </div>
+        <p id="project-section-subtext">Urban and regional planning initiatives focused on sustainable development and
+            community engagement.
+        </p>
+        <div id="project-grid">
+            <!-- Card 1 -->
+            <div id="project-card-title" class="project-card">
+                <div id="plan" class="card-image">
+                    <img src="/assets/images/planning-project.webp" alt="Hifadhi Link">
+                    <div class="plan-badge" id="project-top-tag">Conservation Planning</div>
+                    <div class="badge" id="project-status">Prototype</div>
+                </div>
+                <div class="project-card-content">
+                    <h3 id="project-main-title">Hifadhi Link</h3>
+                    <p id="project-main-desc">Community-based natural resource management platform integrating
+                        traditional knowledge with modern conservation.
+                    </p>
+                    <div id="project-main-tags">
+                        <span>QGIS</span>
+                        <span>ArcGIS</span>
+                        <span>Community Mapping</span>
+                        <span>Spatial Analysis</span>
+                    </div>
+                    <div class="project-card-footer">
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/map-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
+                        <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Card 2 -->
+            <div id="project-card-title" class="project-card">
+                <div id="plan" class="card-image">
+                    <img src="/assets/images/mapping-app.webp" alt="WildGuard">
+                    <div class="plan-badge" id="project-top-tag">Civic Planning</div>
+                    <div class="badge" id="project-status">Active</div>
+                </div>
+                <div class="project-card-content">
+                    <h3 id="project-main-title">Urban Budget Dashboard</h3>
+                    <p id="project-main-desc">Interactive visualization of municipal budget allocations with community
+                        feedback integration.
+                    </p>
+                    <div id="project-main-tags">
+                        <span>QGIS</span>
+                        <span>AutoCAD</span>
+                        <span>Data Visualization</span>
+                        <span>Public Engagement</span>
+                    </div>
+                    <div class="project-card-footer" id="project-main-footer">
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/map-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
+                        <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div id="project-card-title" class="project-card">
+                <div id="plan" class="card-image">
+                    <img src="/assets/images/WorldCitiesDashboard.webp" alt="SokoLink">
+                    <div class="plan-badge" id="project-top-tag">Social Planning</div>
+                    <div class="badge" id="project-status">Ongoing</div>
+                </div>
+                <div class="project-card-content">
+                    <h3 id="project-main-title">Community Mapping Initiative</h3>
+                    <p id="project-main-desc">Participatory mapping project documenting informal settlements and
+                        infrastructure needs.
+                    </p>
+                    <div id="project-main-tags">
+                        <span>GPS</span>
+                        <span>Mobile Data Collection</span>
+                        <span>QGIS</span>
+                        <span>Community Workshops</span>
+                    </div>
+                    <div class="project-card-footer" id="project-main-footer">
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/map-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
+                        <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div id="project-card-title" class="project-card">
+                <div id="plan" class="card-image">
+                    <img src="/assets/images/accessibilty-image.webp" alt="SoilGuardian">
+                    <div class="plan-badge" id="project-top-tag">Transport Planning</div>
+                    <div class="badge" id="project-status">Published</div>
+                </div>
+                <div class="project-card-content">
+                    <h3 id="project-main-title">Transit Accessibility Study</h3>
+                    <p id="project-main-desc">Comprehensive analysis of public transport accessibility for persons with
+                        disabilities.
+                    </p>
+                    <div id="project-main-tags">
+                        <span>GIS Analysis</span>
+                        <span>Field Surveys</span>
+                        <span>Accessibility Standards</span>
+                        <span>Policy Development</span>
+                    </div>
+                    <div class="project-card-footer" id="project-main-footer">
+                        <div id="inner-footer-content">
+                            <img src="/assets/images/map-icon.png" alt="link-external-icon"
+                                id="external-link">
+                            <a href="#">View Project</a>
+                        </div>
+                        <span id="github-icon"><img src="/assets/images/github-icon.png" alt="github-icon"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="project-cta">
+        <div style="width: 832px; height: 216px; justify-content: center; align-items: center; margin: 0 auto;">
+            <h2>Let's Build Something Together</h2>
+            <div id="project-cta-desc">
+                <p>Whether you need a web application or urban planning expertise, I bring a unique perspective that
+                    considers
+                    both technical feasibility and community impact.
+                </p>
+            </div>
+            <button>Start a Conversation</button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer-section" style="margin-top: none; padding-top: none;">
+        <!-- Call To Action -->
+        <p id="cta-footer">"Built by a Planner Who Codes."</p>
+        <!-- Social Links -->
+        <div id="footer-social-links">
+            <a href=""><img src="/assets/images/github-icon.png" alt="github"></a>
+            <a href=""><img src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"></a>
+            <a href="mailto:vulimwabravin@gmail.com"><img src="/assets/images/email-outline-icon.png" alt="email"></a>
+        </div>
+        <p id="code-identity">Code4Cities</p>
+        <p id="copyright">© Bravin Vulimwa 2025. Building technology for smarter cities.</p>
+    </footer>
 </body>
 
 </html>
