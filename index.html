@@ -20,22 +20,35 @@
 </head>
 
 <body>
-<!-- To be reused -->
+    <!-- Sidebar Toggle -->
+    <input type="checkbox" id="menu-toggle" hidden />
+
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <!-- To be reused -->
     <!--Navigation -->
     <div id="navbar">
         <!-- Logo section -->
         <div id="logo-img">
             <img src="assets/images/logo.png" alt="logo" id="logo">
         </div>
-        <div id="navbar-list">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="impact.html">Impact</a></li>
-                <li> <a href="contact.html">Contact</a></li>
-            </ul>
+        <!-- Sidebar menu -->
+        <div id="navbar-menu">
+            <div id="navbar-list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="impact.html">Impact</a></li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- Main Content -->
@@ -44,7 +57,8 @@
         <div class="overlay">
             <div class="animated-heading-keyframes">
                 <span class="word-part-keyframes delay-0" id="greetings">Hi, I'm Bravin.</span>
-                <span style="color: rgb(255, 214, 102);" class="word-part-keyframes delay-0">I Code for Cities.</span>
+                <span style="color: rgb(255, 214, 102);" class="word-part-keyframes delay-0" id="code-cta">I Code for
+                    Cities.</span>
                 <span class="word-part-keyframes delay-2" id="hero-cta">Software Engineer + Urban&Regional
                     Planner</span>
             </div>
@@ -62,11 +76,13 @@
             <div id="explore">
                 <button>Explore My work</button>
             </div>
-            <div id="discover">
-                Discover My Journey
-            </div>
-            <div id="arrow">
-                <img src="/assets/images/arrow-down-icon.png" alt="arrow">
+            <div id="scroll-down">
+                <div id="discover">
+                    Discover My Journey
+                </div>
+                <div id="arrow">
+                    <img src="/assets/images/arrow-down-icon.png" alt="arrow">
+                </div>
             </div>
         </div>
     </section>
@@ -78,7 +94,7 @@
                     Mission
                 </div>
                 <div id="mission-cta">
-                    <div style="margin-bottom: 15px;">
+                    <div style="margin-bottom: 15px;" id="building-cta">
                         Building
                     </div>
                     <div>
