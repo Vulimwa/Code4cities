@@ -1607,6 +1607,213 @@ p {
   margin-top: 4px;
 }
 
+/* ABOUT PAGE RESPONSIVE STYLING */
+
+/* Tablet styles */
+@media screen and (max-width: 1024px) {
+  #about-hero-section {
+    height: 38vh;
+    padding: 0 10px;
+  }
+  .about-hero-description div {
+    width: 90vw;
+    font-size: 2.2rem;
+    padding: 40px 5px 25px 5px;
+  }
+  #about-cards {
+    width: 95vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .about-card-desc p {
+    width: 90vw;
+    height: auto;
+    margin-left: 0;
+  }
+  #about-my-story {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  #about-my-story img {
+    width: 90vw;
+    height: 40vh;
+    margin: 0 auto 24px auto;
+    display: block;
+    max-width: 100%;
+  }
+  #story-img, #story-desc {
+    width: 100%;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 600px) {
+  #about-hero-section {
+    height: 48vh;
+    padding: 0 4px;
+    margin-top: 56px;
+  }
+  .about-hero-description div {
+    width:100vw;
+    font-size: 1.8rem;
+    padding: 40px 2px 1px 2px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+  .about-hero-description p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0 2px;
+    text-align: center;
+    margin-top: 34px;
+  }
+
+  #about-cards {
+    width: 98vw;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .about-card-desc p {
+    width: 95vw;
+    height: auto;
+    margin-left: 0;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+  }
+  #about-my-story {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  #about-my-story img {
+    width: 98vw;
+    height: auto;
+    margin: 0 auto 60px auto;
+    display: block;
+    max-width: 100%;
+  }
+  #story-img, #story-desc {
+    width: 100%;
+  }
+  #line, #square {
+    display: none;
+  }
+  #story-desc h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  #story-desc p {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+
+  #name-tag h3 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  #name-tag h5 {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+  }
+
+  #quote-start{
+    margin-left: 60px;
+  }
+}
+
+/* Hamburger icon fix for mobile */
+@media screen and (max-width: 768px) {
+  #hamburger {
+    position: fixed !important;
+    top: 18px !important;
+    right: 20px !important;
+    z-index: 1100 !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #about-cards {
+    width: 95vw;
+    margin: 0 auto 40px auto;
+    padding: 1rem 2vw;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .about-card-desc p {
+    width: auto;
+    min-width: 0;
+    max-width: 80vw;
+    margin-left: 0;
+    padding: 0 2vw;
+    text-align:left;
+  }
+
+  .about-card-desc h3 {
+    text-align:center;
+    margin-left: 0;
+  }
+
+  .about-card-desc h4 {
+    margin-left:85px;
+  }
+ 
+
+  #line {
+    display: block;
+    position: absolute;
+    left: 2vw;
+    margin-left: 0;
+    width: 4px;
+    min-width: 4px;
+    height: 100%;
+  }
+  #about-my-story {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  #about-cards {
+    width: 98vw;
+    margin: 0 auto 32px auto;
+    padding: 0.5rem 2vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .about-card-desc p {
+    width: auto;
+    min-width: 0;
+    max-width: 90vw;
+    margin-left: 0;
+    padding: 0 2vw;
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+    text-align: center;
+  }
+
+  #about-my-story {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  #line {
+    display: none;
+  }
+
+}
+
 /* IMPACT PAGE STYLING */
 #impact-hero-section {
   background-image: url('/assets/images/community.webp');
