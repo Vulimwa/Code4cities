@@ -4,6 +4,7 @@ html {
   margin: 0;
   text-align: center;
   scroll-behavior: smooth;
+  max-width: 100vw;
 }
 
 body {
@@ -15,6 +16,8 @@ body {
   overscroll-behavior: none;
   max-width: 100%;
   line-height: 16px;
+  overflow-x: hidden;
+  max-width: 100vw;
   box-sizing: border-box;
 
 }
@@ -519,8 +522,25 @@ h4 {
     align-items: flex-start;
     padding: 1rem;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    z-index: 1000;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
 
+  html, body, #navbar-menu, #hero-section, .overlay {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+  }
+#navbar-list li:last-child {
+  margin-left:0;
+}
   #hero-section {
     background-position: center;
     height:79vh;
