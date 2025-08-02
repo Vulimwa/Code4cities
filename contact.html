@@ -63,111 +63,80 @@
             </div>
         </div>
     </section>
-    <section id="form-contact-section">
-        <div id="main-contact-section">
-            <!-- Left: Get in Touch -->
-            <div id="get-in-touch">
-                <h2>Get in Touch</h2>
-                <div id="contact-underline"></div>
-                <p>
-                    I'm always interested in new opportunities, collaborations, and
-                    conversations about the intersection of technology and urban development.
-                </p>
 
-                <div class="contact-icons">
-                    <img src="/assets/images/email-outline-icon.png" alt="email" />
-                    <div>
+    <section id="contact-container">
+        <div id="contact-flex">
+            <div class="contact-box">
+                <h2 id="contact-title">Get in Touch</h2>
+                 <div id="underline"></div>
+                <p id="contact-desc">I'm always interested in new opportunities, collaborations, and conversations about
+                    the intersection of technology and urban development.</p>
+
+                <div class="info-line">
+                    <img src="/assets/images/email-outline-icon.png" alt="email">
+                    <div id="contact-line">
                         <h3>Email</h3>
-                        <p>vulimwabravin@gmail.com</p>
+                        <p>bravin@code4cities.com</p>
                     </div>
                 </div>
-
-                <div class="contact-icons" style="margin-top: 24px;">
-                    <img src="/assets/images/phone-lucide-icon.png" alt="phone" />
-                    <div>
+                <div class="info-line">
+                    <img src="/assets/images/phone-lucide-icon.png" alt="phone">
+                    <div id="contact-line">
                         <h3>Phone</h3>
-                        <p>+254 706 069 256</p>
+                        <p>+254 700 123456</p>
                     </div>
                 </div>
-
-                <div class="contact-icons" style="margin-top: 24px;">
-                    <img src="/assets/images/location-outline-icon.png" alt="location" />
-                    <div>
+                <div class="info-line">
+                    <img src="/assets/images/location-outline-icon.png" alt="location">
+                    <div id="contact-line">
                         <h3>Location</h3>
                         <p>Nairobi, Kenya</p>
                     </div>
                 </div>
 
                 <div id="cv-button">
-                    <button id="button-cv">
-                        <img src="/assets/images/download-icon.png" alt="download" />
-                        <span>Download My CV</span>
-                    </button>
+                    <button>Download My CV</button>
                 </div>
-
-                <div id="connect-online">
-                    <div>Connect Online</div>
-                    <div id="social-connect-links">
-                        <div>
-                            <a href=""><img src="/assets/images/github-icon.png" alt="github" /></a>
-                        </div>
-                        <div>
-                            <a href=""><img src="/assets/images/linkedin-lucide-icon.png" alt="linkedin" /></a>
-                        </div>
-                        <div>
-                            <a href=""><img src="/assets/images/email-outline-icon.png" alt="email" /></a>
-                        </div>
-                    </div>
+                <p>Connect Online</p>
+                <div id="socials">
+                    <a href="#"><img src="/assets/images/github-icon.png" alt="GitHub"></a>
+                    <a href="#"><img src="/assets/images/linkedin-lucide-icon.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="/assets/images/email-outline-icon.png" alt="Email"></a>
                 </div>
             </div>
 
-            <!-- Right: Send Message -->
-            <div id="send-message">
-                <form action="https://formbold.com/s/oyG8r" method="post" style="margin: 0; padding: 0;">
-                    <div style="padding: 26px; text-align: left;">
-                        <h2 style="  color: rgb(0, 0, 90); font-family: 'Playfair Display', serif; text-align: left; ">
-                            Send Message
-                        </h2>
-
-                        <div id="personal-info">
-                            <div>
-                                <label for="name">Name*</label><br />
-                                <input type="text" id="username" name="username" placeholder="Your full name"
-                                    required />
-                            </div>
-                            <div>
-                                <label for="email">Email*</label><br />
-                                <input type="text" id="user-email" name="user-email"
-                                    placeholder="your.email@example.com" required />
-                            </div>
+            <div class="form-box">
+                <h3 id="form-title">Send a Message</h3>
+                <form id="message-form">
+                    <div
+                        style="display: flex; flex-direction:row; gap:16px; justify-content: space-between; align-items: center; text-align: left;">
+                        <div id="personal-name">
+                            <label for="name">Name*</label>
+                            <input type="text" name="name" placeholder="Your full name" required>
                         </div>
-
-                        <label for="subject">Subject*</label><br />
-                        <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
-
-                        <div style="margin-top: 8px;">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="10"
-                                placeholder="Tell me about your project or idea?"></textarea>
+                        <div class="personal-email">
+                            <label for="email">Email*</label>
+                            <input type="email" name="email" placeholder="your.email@example.com" required>
                         </div>
-
-                        <button type="submit">
-                            <img src="/assets/images/send-icon.png" alt="send"
-                                style="height: 16px; margin-right: 6px;" />
-                            Send Message
-                        </button>
                     </div>
-                </form>
+                    <div id="subject">
+                        <label for="subject">Subject*</label>
+                        <input type="text" placeholder="What's this about?" required>
+                    </div>
+                    <div id="text-area">
+                        <label for="message">Message*</label>
+                        <textarea rows="7" placeholder="Tell me about your project or idea..." required></textarea>
+                    </div>
 
-                <!-- Optional Map Embed -->
-                <div id="map-container">
-                    <iframe src="https://www.google.com/maps?q=Nairobi,+Kenya&output=embed" width="100%" height="100"
-                        style="border: 0" allowfullscreen="" loading="lazy"></iframe>
-                </div>
+                    <button type="submit"><img src="/assets/images/send-icon.png" alt="send"
+                            style="width:16px; height:16px; filter: invert(1);"> Send
+                        Message</button>
+                </form>
             </div>
         </div>
     </section>
     <!-- Call To action -->
+    
     <section id="collaboration-section">
         <h2>Areas of Collaboration</h2>
         <div id="collaboration-underline"></div>
