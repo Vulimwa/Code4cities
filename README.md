@@ -13,7 +13,7 @@ Code4Cities is a personal website and digital portfolio for Bravin Vulimwa, a pl
 - **Fully Responsive Design:** Looks great on desktop, tablet, and mobile (down to 347px width!)
 - **Multi-Page Layout:** Includes About, Skills, Projects, Impact, and Contact pages
 - **Modern UI:** Clean, accessible, and visually engaging with custom icons, cards, and overlays
-- **Contact Form:** Styled form for easy communication (non-functional, for demo purposes)
+- **Contact Form:** Styled form for easy communication (functional)
 - **Areas of Collaboration:** Showcases ways to work together on urban tech, GIS, and community projects
 - **No Frameworks:** 100% hand-coded HTML and CSS for maximum learning and control
 
