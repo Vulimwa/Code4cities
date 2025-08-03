@@ -498,7 +498,7 @@ h4 {
   #mission-description,
   #mission-img {
     width: 100%;
-    text-align: center;
+    text-align:left;
   }
 
   #mission-img img {
@@ -1650,6 +1650,7 @@ p {
   font-family: 'Inter', sans-serif;
   text-align: left;
   line-height: 1.35rem;
+  margin-right: 100px;
 }
 
 #story-desc div {
@@ -1703,7 +1704,7 @@ p {
     width: 95vw;
     height: auto;
     flex-direction: column;
-    align-items: center;
+    align-items:left;
     padding: 1rem;
   }
 
@@ -1712,6 +1713,16 @@ p {
     height: auto;
     margin-left: 0;
   }
+
+  .about-card-desc h3 {
+    text-align:left;
+    margin-left: 0;
+  }
+
+    #line,
+  #square {
+    display: none;
+  } 
 
   #about-my-story {
     flex-direction: column;
@@ -1724,6 +1735,7 @@ p {
     margin: 0 auto 24px auto;
     display: block;
     max-width: 100%;
+    object-fit: cover;
   }
 
   #story-img,
@@ -1795,7 +1807,7 @@ p {
   #line,
   #square {
     display: none;
-  }
+  } 
 
   #story-desc h2 {
     font-size: 1.5rem;
@@ -1807,6 +1819,7 @@ p {
     font-size: 0.9rem;
     line-height: 1.2rem;
     text-align: center;
+    margin-right: 0;
   }
 
   #name-tag h3 {
