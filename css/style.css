@@ -7,9 +7,8 @@ html {
   max-width: 100vw;
 }
 
-
 body {
-  font-family: 'Inter', Sans-serif;
+  font-family: "Inter", Sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -20,7 +19,6 @@ body {
   overflow-x: hidden;
   max-width: 100vw;
   box-sizing: border-box;
-
 }
 
 a {
@@ -37,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 #logo {
@@ -78,7 +76,7 @@ h6 {
 }
 
 #navbar li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   list-style: none;
   color: hsl(210 9% 45%);
   display: inline-flex;
@@ -93,7 +91,6 @@ h6 {
   font-size: 0.875rem;
   line-height: 1.25rem;
   box-sizing: border-box;
-
 }
 
 #navbar-list li {
@@ -136,7 +133,7 @@ li:hover::after {
 }
 
 #hero-section {
-  background-image: url('/assets/images/image-two.webp');
+  background-image: url("/assets/images/image-two.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,9 +162,8 @@ li:hover::after {
   z-index: 1;
 }
 
-
 .animated-heading-keyframes {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 4rem;
   line-height: 1;
   font-weight: 700;
@@ -183,7 +179,6 @@ li:hover::after {
   transform: translateY(100%) rotate(5deg);
   animation: text-fade-in 1s ease-out forwards;
 }
-
 
 @keyframes text-fade-in {
   0% {
@@ -218,7 +213,7 @@ li:hover::after {
 }
 
 #hero-cta {
-  font-family: 'Inter', serif;
+  font-family: "Inter", serif;
   font-size: 1.8rem;
   font-weight: 400;
   padding: 4px;
@@ -229,7 +224,7 @@ li:hover::after {
 #explore button {
   font-size: 1.5rem;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgb(255, 214, 102);
   border: 1px solid hsl(51, 100%, 50%, 0.7);
   color: #141d2e;
@@ -238,20 +233,18 @@ li:hover::after {
   border-radius: 24px;
   cursor: pointer;
   margin-top: 40px;
-
 }
 
 #explore div:hover {
   background-color: white;
 }
 
-
 #discover {
   margin-top: 80px;
   background-color: rgba(16, 40, 66, 0.85);
   width: 240px;
   padding: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   border-radius: 16px;
   border: 1px solid hsl(0, 0%, 75%);
@@ -289,7 +282,7 @@ li:hover::after {
 
 #scroll-down {
   animation-name: jump;
-  animation-duration: 1.3s; 
+  animation-duration: 1.3s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
@@ -320,7 +313,7 @@ li:hover::after {
 }
 
 #mission-cta div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   line-height: 1rem;
   font-size: 3rem;
   color: rgba(16, 40, 66);
@@ -329,7 +322,7 @@ li:hover::after {
 }
 
 #my-mission {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
   color: rgba(16, 40, 66);
@@ -350,11 +343,10 @@ li:hover::after {
   left: 0;
   bottom: 0;
   box-sizing: border-box;
-
 }
 
 #mission-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   color: rgba(17, 37, 59, 0.7);
@@ -372,7 +364,6 @@ li:hover::after {
   margin-left: 10px;
   margin-top: 16px;
   margin: 0 auto;
-
 }
 
 #stats-cards div:last-child {
@@ -380,7 +371,7 @@ li:hover::after {
 }
 
 .card-stats h4 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   color: rgba(17, 37, 59, 0.7);
@@ -424,7 +415,7 @@ h4 {
   font-style: italic;
   font-weight: 500;
   text-align: center;
-  font-family: 'Playfair', serif;
+  font-family: "Playfair", serif;
   font-size: 2rem;
   padding-top: 60px;
 }
@@ -441,7 +432,6 @@ h4 {
 
 #footer-social-links a:first-child {
   margin-left: 0;
-
 }
 
 #footer-social-links a {
@@ -450,7 +440,6 @@ h4 {
   height: 48px;
   border-radius: 50%;
   margin-left: 24px;
-
 }
 
 #footer-social-links img {
@@ -470,7 +459,7 @@ h4 {
 }
 
 #code-identity {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: 1.4rem;
   color: white;
@@ -478,7 +467,7 @@ h4 {
 }
 
 #copyright {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgb(180, 180, 180);
   font-weight: 400;
   font-size: 1rem;
@@ -488,8 +477,6 @@ h4 {
 /* Main Page resposive styling */
 /* Tablets (768px and below) */
 @media screen and (max-width: 1024px) {
-
-
   #mission-div {
     flex-direction: column;
     padding: 0 20px;
@@ -498,7 +485,7 @@ h4 {
   #mission-description,
   #mission-img {
     width: 100%;
-    text-align:left;
+    text-align: left;
   }
 
   #mission-img img {
@@ -576,7 +563,6 @@ h4 {
     background-position: center;
     height: 79vh;
     padding: 40px 0;
-
   }
 
   .animated-heading-keyframes {
@@ -590,7 +576,7 @@ h4 {
   }
 
   #code-cta {
-    font-size: 2.1rem;
+    font-size: 1.5rem;
   }
 
   #hero-cta {
@@ -619,7 +605,6 @@ h4 {
     font-size: 2rem;
     text-align: left;
     margin-bottom: -6px;
-
   }
 
   #building-cta {
@@ -725,7 +710,7 @@ h4 {
   }
 
   /* When checkbox is checked, show menu */
-  #menu-toggle:checked~#navbar #navbar-menu {
+  #menu-toggle:checked ~ #navbar #navbar-menu {
     right: 0;
   }
 
@@ -748,7 +733,7 @@ h4 {
 
 /* CONTACT PAGE STYLING */
 #contact-hero-section {
-  background-image: url('/assets/images/image-three.webp');
+  background-image: url("/assets/images/image-three.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -785,9 +770,8 @@ h4 {
   align-items: center;
 }
 
-
 .contact-hero-description div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: 700;
   padding: 75px 10px 45px 10px;
@@ -800,7 +784,7 @@ h4 {
 }
 
 .contact-hero-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   line-height: 1.95rem;
   font-weight: 400;
@@ -846,16 +830,14 @@ div#contact-flex {
   padding: 1rem;
 }
 
-
 h2#contact-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 1rem;
   text-align: left;
 }
-
 
 .form-box {
   background: white;
@@ -867,7 +849,7 @@ h2#contact-title {
 h2#contact-title h3#form-title {
   font-size: 1.875rem;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: hsl(211 61% 16%);
   margin-bottom: 1.5rem;
 }
@@ -876,14 +858,13 @@ h2#contact-title h3#form-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 1rem;
-
 }
 
 p#contact-desc {
   color: hsl(210 9% 45%);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.625;
   margin-bottom: 1rem;
   text-align: left;
@@ -897,7 +878,6 @@ p#contact-desc {
   margin-bottom: 0.75rem;
 }
 
-
 .info-line img {
   width: 50px;
   height: 50px;
@@ -907,9 +887,8 @@ p#contact-desc {
   box-sizing: border-box;
 }
 
-
 #contact-line h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: hsl(211 61% 16%);
   font-weight: 500;
   margin: 0;
@@ -918,16 +897,14 @@ p#contact-desc {
   padding-bottom: 3px;
 }
 
-
 #contact-line p {
   color: hsl(210 9% 45%);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   text-align: left;
   padding-left: 6px;
   padding-bottom: 3px;
 }
-
 
 #cv-button {
   margin-top: 2rem;
@@ -950,8 +927,8 @@ p#contact-desc {
   background-color: hsla(211, 61%, 16%, 0.9);
 }
 
-.contact-box>p {
-  font-family: 'Playfair Display', serif;
+.contact-box > p {
+  font-family: "Playfair Display", serif;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -977,7 +954,6 @@ p#contact-desc {
   height: 24px;
   filter: invert(1);
 }
-
 
 .form-row {
   display: flex;
@@ -1010,12 +986,10 @@ form#message-form textarea {
   border-color: hsl(210 13% 94%);
 }
 
-
 #personal-name,
 .personal-email {
   width: 50%;
 }
-
 
 #personal-name label,
 .personal-email label,
@@ -1025,7 +999,7 @@ form#message-form textarea {
   font-weight: 500;
   color: hsl(211 61% 16%);
   margin-bottom: 0.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #subject {
@@ -1064,11 +1038,9 @@ textarea {
   cursor: pointer;
 }
 
-
 #message-form button:hover {
   background-color: hsla(211, 61%, 16%, 0.9);
 }
-
 
 #collaboration-section {
   background: hsl(46 29% 97%);
@@ -1154,15 +1126,15 @@ textarea {
 .card-overlay h3 {
   margin: 0;
   font-size: 1.4em;
-  color: #FFD700;
-  font-family: 'Playfair Display', 'serif';
+  color: #ffd700;
+  font-family: "Playfair Display", "serif";
   text-align: center;
   transition: all 0.4s ease;
 }
 
 .card:hover .card-overlay h3 {
   margin-bottom: 15px;
-  font-family: 'Playfair Display', 'serif';
+  font-family: "Playfair Display", "serif";
 }
 
 .card-overlay p {
@@ -1171,7 +1143,7 @@ textarea {
   opacity: 0;
   transition: opacity 0.5s ease;
   font-size: 0.95em;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .card:hover .card-overlay p {
@@ -1185,7 +1157,6 @@ textarea {
   }
 }
 
-
 @media (max-width: 1000px) {
   .card {
     width: 90%;
@@ -1195,7 +1166,6 @@ textarea {
 
 #contact-cta {
   border-color: hsl(210 13% 91%);
-
 }
 
 #contact-cta h2,
@@ -1204,7 +1174,7 @@ p {
 }
 
 #contact-cta h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2rem;
   color: hsl(211 61% 16%);
   font-weight: 700;
@@ -1217,7 +1187,7 @@ p {
 #contact-cta p {
   padding: 4px;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: hsl(210 9% 45%);
   line-height: 1.8rem;
   font-size: 1.125rem;
@@ -1266,7 +1236,7 @@ p {
     margin-top: 28px;
   }
 
-  footer#footer-section>div {
+  footer#footer-section > div {
     width: 100%;
     margin: 0 auto;
   }
@@ -1302,7 +1272,6 @@ p {
 
   #collaboration-section h2 {
     line-height: 2.7rem;
-
   }
 
   #collaboration-section {
@@ -1394,7 +1363,7 @@ p {
 
 /* ABOUT PAGE STYLING */
 #about-hero-section {
-  background-image: url('/assets/images/city.webp');
+  background-image: url("/assets/images/city.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1433,7 +1402,7 @@ p {
 }
 
 .about-hero-description div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: 700;
   padding: 75px 10px 45px 10px;
@@ -1448,7 +1417,7 @@ p {
 }
 
 .about-hero-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   line-height: 1.95rem;
   font-weight: 400;
@@ -1510,7 +1479,7 @@ p {
   padding-left: 0;
   display: flex;
   color: hsl(44 100% 70%);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   background-color: hsl(44deg 100% 70% / 10%);
   font-size: 0.875rem;
@@ -1519,7 +1488,6 @@ p {
   width: 32px;
   border-radius: 16px;
   margin-bottom: 8px;
-
 }
 
 .about-card-desc span {
@@ -1533,7 +1501,7 @@ p {
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 0.5rem;
   margin-top: 0px;
   margin-right: 0px;
@@ -1550,7 +1518,7 @@ p {
   border-color: hsl(210 13% 91%);
   box-sizing: border-box;
   border-width: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: left;
   width: 642px;
   height: 52px;
@@ -1571,7 +1539,6 @@ p {
   border-style: solid;
   margin-left: 285px;
   height: 1040px;
-
 }
 
 #square {
@@ -1594,7 +1561,6 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: hsl(46 29% 97%);
-
 }
 
 #about-my-story {
@@ -1616,7 +1582,6 @@ p {
   margin-top: 0;
   padding-top: 0;
   margin-left: 100px;
-
 }
 
 #story-img {
@@ -1625,7 +1590,6 @@ p {
 
 #story-desc {
   width: 50%;
-
 }
 
 #story-desc h2 {
@@ -1636,7 +1600,9 @@ p {
   font-size: 1.875rem;
   line-height: 2.25rem;
   color: hsl(211 61% 16%);
-  font-family: Playfair Display, serif;
+  font-family:
+    Playfair Display,
+    serif;
   position: relative;
   z-index: 10;
   margin: 0;
@@ -1647,7 +1613,7 @@ p {
 #story-desc p {
   color: hsl(210 9% 45%);
   margin: 1rem 0 1rem 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: left;
   line-height: 1.35rem;
   margin-right: 100px;
@@ -1662,7 +1628,7 @@ p {
 
 #name-tag h3 {
   font-style: italic;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: "Playfair Display", sans-serif;
   flex-direction: column;
   font-size: 1.8rem;
   text-align: left;
@@ -1672,14 +1638,13 @@ p {
   line-height: 2rem;
   margin-bottom: 4px;
   padding-bottom: 0;
-
 }
 
 #name-tag h5 {
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: hsl(210 9% 45%);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   text-align: left;
   margin-top: 4px;
@@ -1704,7 +1669,7 @@ p {
     width: 95vw;
     height: auto;
     flex-direction: column;
-    align-items:left;
+    align-items: left;
     padding: 1rem;
   }
 
@@ -1715,14 +1680,14 @@ p {
   }
 
   .about-card-desc h3 {
-    text-align:left;
+    text-align: left;
     margin-left: 0;
   }
 
-    #line,
+  #line,
   #square {
     display: none;
-  } 
+  }
 
   #about-my-story {
     flex-direction: column;
@@ -1807,7 +1772,7 @@ p {
   #line,
   #square {
     display: none;
-  } 
+  }
 
   #story-desc h2 {
     font-size: 1.5rem;
@@ -1877,7 +1842,6 @@ p {
     margin-left: 85px;
   }
 
-
   #line {
     display: block;
     position: absolute;
@@ -1923,12 +1887,11 @@ p {
   #line {
     display: none;
   }
-
 }
 
 /* IMPACT PAGE STYLING */
 #impact-hero-section {
-  background-image: url('/assets/images/community.webp');
+  background-image: url("/assets/images/community.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2012,7 +1975,7 @@ p {
 }
 
 .impact-hero-description div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: 700;
   padding: 75px 10px 45px 10px;
@@ -2025,7 +1988,7 @@ p {
 }
 
 .impact-hero-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   line-height: 1.95rem;
   font-weight: 400;
@@ -2082,12 +2045,12 @@ p {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 0.5rem;
 }
 
 .number::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -2132,7 +2095,7 @@ p {
 
 @keyframes countUp {
   from {
-    content: '0';
+    content: "0";
   }
 }
 
@@ -2175,7 +2138,7 @@ p {
   color: hsl(211 61% 16%);
   font-size: 2.25rem;
   line-height: 2.5rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -2208,7 +2171,9 @@ p {
   text-align: left;
   opacity: 1;
   transform: translateY(0);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
   height: 264px;
   width: 298px;
   flex-shrink: 1;
@@ -2283,7 +2248,7 @@ p {
 .inspiration-title {
   color: hsl(211 61% 16%);
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   margin-bottom: 2rem;
@@ -2295,7 +2260,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -2345,7 +2310,7 @@ p {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 31, 63, 0.55);
-  color: #FFD700;
+  color: #ffd700;
   font-size: 0.9rem;
   font-weight: 500;
   padding: 20px;
@@ -2393,7 +2358,7 @@ p {
   color: hsl(211 61% 16%);
   font-size: 1.875rem;
   line-height: 2.25rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 #philosophy-quote {
@@ -2405,7 +2370,7 @@ p {
   position: relative;
   padding-left: 20px;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 #philosophy-quote::before {
@@ -2463,7 +2428,7 @@ p {
   color: hsl(211 61% 16%);
   margin-bottom: 10px;
   font-size: 1.125rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   line-height: 1.75rem;
 }
 
@@ -2527,7 +2492,7 @@ p {
 
 /*SKILLS PAGE STYLING */
 #skills-hero-section {
-  background-image: url('/assets/images/skills-hero-image.webp');
+  background-image: url("/assets/images/skills-hero-image.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2585,7 +2550,7 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20
+    gap: 20;
   }
 
   #skills-section {
@@ -2649,7 +2614,7 @@ p {
 }
 
 .skills-hero-description div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: 700;
   padding: 75px 10px 45px 10px;
@@ -2662,7 +2627,7 @@ p {
 }
 
 .skills-hero-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   line-height: 1.95rem;
   font-weight: 400;
@@ -2704,7 +2669,7 @@ p {
   padding-left: 8px;
   font-size: 1.875rem;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 #skill-section-title img {
@@ -2721,7 +2686,6 @@ p {
   margin-bottom: 30px;
   color: hsl(210 9% 45%);
   text-align: left;
-
 }
 
 .skill-card {
@@ -2733,9 +2697,7 @@ p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   padding: 1.6rem;
   margin-bottom: 24px;
-
 }
-
 
 .skill-card-header {
   display: flex;
@@ -2761,16 +2723,16 @@ p {
   font-size: 1.1rem;
   font-weight: 600;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-align: left;
 }
 
 .skill-card-subtitle {
   color: hsl(210 9% 45%);
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   margin-bottom: 1rem;
   text-align: left;
@@ -2793,7 +2755,7 @@ p {
 .progress-bar {
   background-color: hsl(46 29% 97%);
   border-radius: 8px;
-  height: .5rem;
+  height: 0.5rem;
   width: 86%;
   margin-left: 14%;
   overflow: hidden;
@@ -2810,7 +2772,7 @@ p {
 
 /* Gold Progress (Right) */
 #gold-progress .progress-fill {
-  background-color: #FFD700;
+  background-color: #ffd700;
   height: 100%;
   border-radius: 8px;
 }
@@ -2826,7 +2788,6 @@ p {
   #skills-section {
     flex-direction: column;
   }
-
 }
 
 /* Community section styling */
@@ -2835,7 +2796,7 @@ p {
   background-color: #fefdf9;
   text-align: center;
   color: #001f3f;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #community-section .intro h2 {
@@ -2845,7 +2806,7 @@ p {
   font-size: 2.25rem;
   line-height: 2.5rem;
   color: hsl(211 61% 16%);
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 #community-section .intro p {
@@ -2862,7 +2823,6 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-
 }
 
 .feature-card {
@@ -2886,8 +2846,7 @@ p {
   color: hsl(211 61% 16%);
   font-size: 1.125rem;
   line-height: 1.75rem;
-  font-family: 'Playfair Display', serif;
-
+  font-family: "Playfair Display", serif;
 }
 
 .feature-card p {
@@ -2919,7 +2878,7 @@ p {
 
 /* Ripple Effect */
 .ripple {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -2928,7 +2887,9 @@ p {
   border-radius: 50%;
   opacity: 0;
   z-index: 1;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .feature-card:hover .ripple {
@@ -2941,7 +2902,7 @@ p {
 }
 
 .gold-glow {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }
 
 /* Responsive */
@@ -3008,12 +2969,11 @@ p {
     margin-right: auto;
     width: 391.2px;
   }
-
 }
 
 /* PROJECTS PAGE STYLING */
 #projects-hero-section {
-  background-image: url('/assets/images/project-image.webp');
+  background-image: url("/assets/images/project-image.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3052,7 +3012,7 @@ p {
 }
 
 .projects-hero-description div {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 3rem;
   font-weight: 700;
   padding: 75px 10px 45px 10px;
@@ -3065,7 +3025,7 @@ p {
 }
 
 .projects-hero-description p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.5rem;
   line-height: 1.95rem;
   font-weight: 400;
@@ -3099,8 +3059,8 @@ p {
 
 .project-section img {
   background-color: hsl(211deg 61% 16% / 10%);
-  border-radius: .75rem;
-  padding: .5rem;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
   height: 30px;
   width: 30px;
   justify-content: center;
@@ -3115,12 +3075,11 @@ p {
   text-align: center;
   font-size: 1.875rem;
   line-height: 2.25rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 10px;
   padding-left: 12px;
   justify-content: center;
   align-items: center;
-
 }
 
 #project-section-title img {
@@ -3132,7 +3091,6 @@ p {
   justify-content: center;
   align-items: center;
   margin-right: 16px;
-
 }
 
 #project-section-subtext {
@@ -3140,9 +3098,8 @@ p {
   color: hsl(210 9% 45%);
   text-align: center;
   margin-bottom: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: center;
-
 }
 
 /* Grid */
@@ -3161,7 +3118,9 @@ p {
   border: 1px solid rgba(234, 227, 227, 0.366);
   overflow: hidden;
   box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .project-card:hover {
@@ -3212,8 +3171,6 @@ p {
   border-color: hsl(210 13% 91%);
 }
 
-
-
 #project-top-tag {
   top: 10px;
   left: 10px;
@@ -3262,7 +3219,6 @@ p {
   border-radius: 6px;
 }
 
-
 /* Footer */
 .project-card-footer {
   display: flex;
@@ -3280,14 +3236,12 @@ p {
   width: 280px;
   height: 40px;
   border: 1px solid gray;
-
 }
 
 .project-card-footer div:hover {
   color: rgb(255 255 255);
   background-color: #001f3ff9;
 }
-
 
 #inner-footer-content {
   justify-content: center;
@@ -3302,8 +3256,7 @@ p {
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1rem;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 
 #inner-footer-content:hover #external-link {
@@ -3313,7 +3266,6 @@ p {
 #inner-footer-content:hover a {
   color: white;
 }
-
 
 #inner-footer-content img {
   margin-right: 10px;
@@ -3327,7 +3279,6 @@ p {
   padding: 4px;
   border: 1px solid rgba(249, 249, 249, 0.932);
   margin-top: 4px;
-
 }
 
 #github-icon img:hover {
@@ -3371,7 +3322,7 @@ p {
 }
 
 #project-cta h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 2rem;
   color: hsl(211 61% 16%);
   font-weight: 700;
@@ -3384,7 +3335,7 @@ p {
 #project-cta-desc p {
   padding: 4px;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: hsl(210 9% 45%);
   line-height: 1.8rem;
   font-size: 1.125rem;
@@ -3405,21 +3356,19 @@ p {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.75rem;
-  padding: .75rem, .25rem, .75rem, .25rem;
+  padding: 0.75rem, 0.25rem, 0.75rem, 0.25rem;
   background-color: hsl(211 61% 16%);
   white-space: nowrap;
   gap: 0.5rem;
   height: 3.3rem;
   align-items: center;
   border-radius: 14px;
-
 }
 
 #project-cta button:hover {
   background-color: hsl(211deg 61% 16% / 90%);
-  transform: matrix(1.05, 0, 0, 1.05, 0, 0)
+  transform: matrix(1.05, 0, 0, 1.05, 0, 0);
 }
-
 
 /* PROJECT PAGE RESPONSIVE STYLING */
 /* Tablet styles */
@@ -3466,7 +3415,7 @@ p {
 
 /* Project CTA Responsive Styling */
 @media screen and (max-width: 1024px) {
-  #project-cta>div {
+  #project-cta > div {
     width: 90vw !important;
     max-width: 600px;
     height: auto !important;
@@ -3500,7 +3449,7 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-  #project-cta>div {
+  #project-cta > div {
     width: 98vw !important;
     max-width: 99vw;
     min-width: 0;
@@ -3531,5 +3480,570 @@ p {
     width: 100%;
     max-width: 80vw;
     font-size: 0.98rem;
+  }
+}
+
+/* Tools & Technologies Carousel */
+#tools-carousel-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.2)
+  );
+  overflow: hidden;
+}
+
+.carousel-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.carousel-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2rem 0;
+  backdrop-filter: blur(8px);
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll-loop 80s linear infinite;
+  gap: 3rem;
+  padding: 0 2rem;
+}
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.carousel-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  filter: grayscale(0.3);
+}
+
+.carousel-item:hover img {
+  filter: grayscale(0);
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive carousel */
+@media (max-width: 768px) {
+  .carousel-heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .carousel-track {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .carousel-item {
+    width: 70px;
+    height: 70px;
+  }
+
+  .carousel-item img {
+    width: 45px;
+    height: 45px;
+  }
+
+  @keyframes scroll-loop {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #tools-carousel-section {
+    padding: 2rem 1rem;
+  }
+
+  .carousel-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .carousel-container {
+    padding: 1.5rem 0;
+  }
+
+  .carousel-track {
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .carousel-item {
+    width: 60px;
+    height: 60px;
+  }
+
+  .carousel-item img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Certificates Page Styling */
+
+#certificates-hero-section {
+  margin-top: 68px;
+  height: 400px;
+  background:
+    linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)),
+    url("/assets/images/portfolio-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.certificates-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates-hero-description {
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.certificates-hero-description div {
+  font-family: "Playfair Display", serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.certificates-hero-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(220, 220, 220);
+}
+
+/* Certifications Section */
+#certifications-section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certs-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.certs-intro h2 {
+  font-size: 48px;
+  margin: 0 0 1rem 0;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.certs-intro p {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.certs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.cert-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 31, 63, 0.08);
+}
+
+.cert-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 31, 63, 0.15);
+  transform: translateY(-4px);
+  border-color: rgb(255, 214, 102);
+}
+
+.cert-header {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cert-icon {
+  font-size: 48px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.cert-info h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 20px;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.cert-issuer {
+  margin: 0;
+  font-size: 14px;
+  color: rgb(255, 214, 102);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cert-date {
+  font-size: 13px;
+  color: #999;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.cert-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0 0 1.5rem 0;
+}
+
+.cert-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.cert-skills span {
+  background: rgba(0, 31, 63, 0.08);
+  color: #001f3f;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Achievements Section */
+#achievements-section {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.achievements-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.achievements-intro h2 {
+  font-size: 48px;
+  margin: 0 0 1rem 0;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.achievements-intro p {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.achievement-card {
+  background: white;
+  border: 2px solid rgb(255, 214, 102);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+  box-shadow: 0 4px 16px rgba(255, 214, 102, 0.25);
+  transform: translateY(-4px);
+}
+
+.achievement-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.achievement-icon {
+  font-size: 40px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.achievement-title {
+  font-size: 20px;
+  margin: 0;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.achievement-date {
+  font-size: 13px;
+  color: #999;
+  margin: 0 0 1rem 0;
+  font-weight: 500;
+}
+
+.achievement-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0 0 1.5rem 0;
+}
+
+.achievement-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.achievement-tags span {
+  background: rgba(255, 214, 102, 0.2);
+  color: #b8860b;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Engagements Section */
+#engagements-section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.engagements-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.engagements-intro h2 {
+  font-size: 48px;
+  margin: 0 0 1rem 0;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.engagements-intro p {
+  font-size: 18px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.engagements-list {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.engagement-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.engagement-item:last-child {
+  border-bottom: none;
+}
+
+.engagement-item:hover {
+  padding-left: 1rem;
+}
+
+.engagement-marker {
+  color: rgb(255, 214, 102);
+  font-size: 24px;
+  font-weight: bold;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.engagement-content {
+  text-align: left;
+}
+
+.engagement-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 18px;
+  color: #001f3f;
+  font-weight: 700;
+}
+
+.engagement-where {
+  margin: 0 0 0.5rem 0;
+  font-size: 14px;
+  color: rgb(255, 214, 102);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.engagement-date {
+  margin: 0 0 0.75rem 0;
+  font-size: 13px;
+  color: #999;
+  font-weight: 500;
+}
+
+.engagement-desc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Certificates Page Responsive Design */
+@media (max-width: 768px) {
+  #certificates-hero-section {
+    height: 300px;
+    margin-top: 68px;
+  }
+
+  .certificates-hero-description div {
+    font-size: 40px;
+  }
+
+  .certificates-hero-description p {
+    font-size: 16px;
+  }
+
+  .certs-intro h2,
+  .achievements-intro h2,
+  .engagements-intro h2 {
+    font-size: 36px;
+  }
+
+  .certs-grid,
+  .achievements-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cert-card,
+  .achievement-card {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #certificates-hero-section {
+    height: 250px;
+  }
+
+  .certificates-hero-description {
+    padding: 1.5rem;
+  }
+
+  .certificates-hero-description div {
+    font-size: 28px;
+    margin-bottom: 0.75rem;
+  }
+
+  .certificates-hero-description p {
+    font-size: 14px;
+  }
+
+  .certs-intro h2,
+  .achievements-intro h2,
+  .engagements-intro h2 {
+    font-size: 28px;
+  }
+
+  .cert-header {
+    gap: 1rem;
+  }
+
+  .cert-icon {
+    font-size: 40px;
+  }
+
+  .cert-info h3 {
+    font-size: 16px;
+  }
+
+  .achievement-icon {
+    font-size: 32px;
+  }
+
+  .achievement-title {
+    font-size: 16px;
+  }
+
+  .engagement-item {
+    gap: 1rem;
+  }
+
+  .engagement-marker {
+    font-size: 20px;
+  }
+
+  .engagement-content h3 {
+    font-size: 16px;
   }
 }

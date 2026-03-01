@@ -1,157 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="google-site-verification" content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8" />
+    <meta
+      name="google-site-verification"
+      content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8"
+    />
     <title>Code4Cities | Home</title>
 
-    <meta name="description"
-        content="Portfolio of Bravin Vulimwa - Software Engineer and Urban & Regional Planner. Building technology solutions for smarter, more sustainable cities." />
+    <meta
+      name="description"
+      content="Portfolio of Bravin Vulimwa - Data Scientist and Urban & Regional Planner. Using spatial analysis and GIS intelligence to solve urban and environmental challenges."
+    />
     <meta name="author" content="Bravin Vulimwa" />
-    <meta name="keywords"
-        content="software engineer, urban planner, Code4Cities, Bravin Vulimwa, portfolio, web development, urban planning, tech for cities" />
+    <meta
+      name="keywords"
+      content="data scientist, spatial analysis, GIS, urban planner, Code4Cities, Bravin Vulimwa, portfolio, urban planning, climate resilience, data science"
+    />
 
     <meta property="og:title" content="Code4Cities - Bravin Vulimwa" />
-    <meta property="og:description"
-        content="Software Engineer and Urban Planner building technology solutions for smarter cities" />
-    <meta property="og:image" content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png" />
+    <meta
+      property="og:description"
+      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+    />
+    <meta
+      property="og:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
     <meta property="og:url" content="https://bravin-vulimwa.github.io/" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Code4Cities - Bravin Vulimwa" />
 
-    <meta name="twitter:description"
-        content="Software Engineer and Urban Planner building technology solutions for smarter cities" />
-    <meta name="twitter:image" content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png" />
+    <meta
+      name="twitter:description"
+      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+    />
+    <meta
+      name="twitter:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/png" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Sidebar Toggle -->
     <input type="checkbox" id="menu-toggle" hidden />
 
     <!-- Hamburger Icon -->
     <label for="menu-toggle" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </label>
 
     <!-- To be reused -->
     <!--Navigation -->
     <div id="navbar">
-        <!-- Logo section -->
-        <div id="logo-img">
-            <img src="assets/images/logo.png" alt="logo" id="logo">
+      <!-- Logo section -->
+      <div id="logo-img">
+        <img src="assets/images/logo.png" alt="logo" id="logo" />
+      </div>
+      <!-- Sidebar menu -->
+      <div id="navbar-menu">
+        <div id="navbar-list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        <!-- Sidebar menu -->
-        <div id="navbar-menu">
-            <div id="navbar-list">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="impact.html">Impact</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </div>
     <!-- Main Content -->
     <!-- Hero section -->
     <section id="hero-section">
-        <div class="overlay">
-            <div class="animated-heading-keyframes">
-                <span class="word-part-keyframes delay-0" id="greetings">Hi, I'm Bravin.</span>
-                <span style="color: rgb(255, 214, 102);" class="word-part-keyframes delay-0" id="code-cta">I Code for
-                    Cities.</span>
-                <span class="word-part-keyframes delay-2" id="hero-cta">FullStack Developer + Urban&Regional
-                    Planner</span>
-            </div>
-            <!-- Buttons Section -->
-            <div id="explore">
-                <a href="projects.html"> <button>Explore My work</button></a>
-            </div>
-            <div id="scroll-down">
-                <div id="discover">
-                    Discover My Journey
-                </div>
-                <div id="arrow">
-                    <img src="/assets/images/arrow-down-icon.png" alt="arrow">
-                </div>
-            </div>
+      <div class="overlay">
+        <div class="animated-heading-keyframes">
+          <span class="word-part-keyframes delay-0" id="greetings"
+            >Hi, I'm Bravin.</span
+          >
+          <span
+            style="color: rgb(255, 214, 102)"
+            class="word-part-keyframes delay-0"
+            id="code-cta"
+            >I Analyze Urban Systems with Data.</span
+          >
+          <span class="word-part-keyframes delay-2" id="hero-cta"
+            >Data Scientist + Urban & Regional Planner</span
+          >
         </div>
+        <!-- Buttons Section -->
+        <div id="explore">
+          <a href="projects.html"> <button>Explore My work</button></a>
+        </div>
+        <div id="scroll-down">
+          <div id="discover">Discover My Journey</div>
+          <div id="arrow">
+            <img src="/assets/images/arrow-down-icon.png" alt="arrow" />
+          </div>
+        </div>
+      </div>
     </section>
     <!-- My mission section -->
     <section id="mission-section">
-        <div id="mission-div">
-            <div id="mission-description">
-                <div id="my-mission">
-                    Mission
-                </div>
-                <div id="mission-cta">
-                    <div style="margin-bottom: 15px;" id="building-cta">
-                        Building
-                    </div>
-                    <div>
-                        Tomorrow's Cities
-                    </div>
-                </div>
-                <div id="underline"></div>
-                <p style="text-align: left;">I bridge the gap between urban planning and technology,
-                    creating digital solutions that make cities smarter, more sustainable,
-                    and more livable.</p>
-                <!-- Statistics cards -->
-                <div id="stats-cards">
-                    <div class="card-stats">
-                        <h2>10+</h2>
-                        <h4>Projects</h4>
-                    </div>
-                    <div class="card-stats">
-                        <h2>5K+</h2>
-                        <h4>Users Impacted</h4>
-                    </div>
-                    <div class="card-stats">
-                        <h2>3</h2>
-                        <h4>Cities</h4>
-                    </div>
-                </div>
+      <div id="mission-div">
+        <div id="mission-description">
+          <div id="my-mission">Mission</div>
+          <div id="mission-cta">
+            <div style="margin-bottom: 15px" id="building-cta">Building</div>
+            <div>Tomorrow's Cities</div>
+          </div>
+          <div id="underline"></div>
+          <p style="text-align: left">
+            Leveraging spatial data science and GIS analysis to drive
+            evidence-based urban planning decisions. I transform complex urban
+            challenges into actionable insights for sustainable,
+            climate-resilient cities.
+          </p>
+          <!-- Statistics cards -->
+          <div id="stats-cards">
+            <div class="card-stats">
+              <h2>10+</h2>
+              <h4>Projects</h4>
             </div>
-            <div id="mission-img">
-                <img src="/assets/images/image-one.webp" alt="city image">
+            <div class="card-stats">
+              <h2>5K+</h2>
+              <h4>Users Impacted</h4>
             </div>
+            <div class="card-stats">
+              <h2>3</h2>
+              <h4>Cities</h4>
+            </div>
+          </div>
         </div>
+        <div id="mission-img">
+          <img src="/assets/images/image-one.webp" alt="city image" />
+        </div>
+      </div>
     </section>
     <!-- To be reused -->
     <!-- Footer -->
     <footer id="footer-section">
-        <!-- Call To Action -->
-        <p id="cta-footer">"Built by a Planner Who Codes."</p>
-        <!-- Social Links -->
-        <div id="footer-social-links">
-            <a href="https://github.com/Vulimwa"><img src="/assets/images/github-icon.png" alt="github"></a>
-            <a href="https://www.linkedin.com/in/bravin-vulimwa-b65842292/"><img
-                    src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"></a>
-            <a href="mailto:vulimwabravin@gmail.com"><img src="/assets/images/email-outline-icon.png" alt="email"></a>
-        </div>
-        <p id="code-identity">Code4Cities</p>
-        <p id="copyright">© Bravin Vulimwa 2026. Building technology for smarter cities.</p>
+      <!-- Call To Action -->
+      <p id="cta-footer">"Data-driven Urban Futures."</p>
+      <!-- Social Links -->
+      <div id="footer-social-links">
+        <a href="https://github.com/Vulimwa"
+          ><img src="/assets/images/github-icon.png" alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/in/bravin-vulimwa-b65842292/"
+          ><img src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"
+        /></a>
+        <a href="mailto:vulimwabravin@gmail.com"
+          ><img src="/assets/images/email-outline-icon.png" alt="email"
+        /></a>
+      </div>
+      <p id="code-identity">Code4Cities</p>
+      <p id="copyright">
+        © Bravin Vulimwa 2026. Building technology for smarter cities.
+      </p>
     </footer>
-
-</body>
-
+  </body>
 </html>

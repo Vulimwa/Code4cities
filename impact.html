@@ -1,265 +1,338 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="google-site-verification" content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8" />
+    <meta
+      name="google-site-verification"
+      content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8"
+    />
     <title>Code4Cities | Impact</title>
 
-    <meta name="description"
-        content="Portfolio of Bravin Vulimwa - Software Engineer and Urban & Regional Planner. Building technology solutions for smarter, more sustainable cities." />
+    <meta
+      name="description"
+      content="Portfolio of Bravin Vulimwa - Data Scientist and Urban & Regional Planner. Using spatial analysis and GIS intelligence to solve urban and environmental challenges."
+    />
     <meta name="author" content="Bravin Vulimwa" />
-    <meta name="keywords"
-        content="software engineer, urban planner, Code4Cities, Bravin Vulimwa, portfolio, web development, urban planning, tech for cities" />
+    <meta
+      name="keywords"
+      content="data scientist, spatial analysis, GIS, urban planner, Code4Cities, Bravin Vulimwa, portfolio, urban planning, climate resilience, data science"
+    />
 
     <meta property="og:title" content="Code4Cities - Bravin Vulimwa" />
-    <meta property="og:description"
-        content="Software Engineer and Urban Planner building technology solutions for smarter cities" />
-    <meta property="og:image" content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png" />
+    <meta
+      property="og:description"
+      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+    />
+    <meta
+      property="og:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
     <meta property="og:url" content="https://bravin-vulimwa.github.io/" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Code4Cities - Bravin Vulimwa" />
 
-    <meta name="twitter:description"
-        content="Software Engineer and Urban Planner building technology solutions for smarter cities" />
-    <meta name="twitter:image" content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png" />
+    <meta
+      name="twitter:description"
+      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+    />
+    <meta
+      name="twitter:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/png" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Sidebar Toggle -->
     <input type="checkbox" id="menu-toggle" hidden />
 
     <!-- Hamburger Icon -->
     <label for="menu-toggle" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </label>
 
     <!-- To be reused -->
     <!--Navigation -->
     <div id="navbar">
-        <!-- Logo section -->
-        <div id="logo-img">
-            <img src="assets/images/logo.png" alt="logo" id="logo">
+      <!-- Logo section -->
+      <div id="logo-img">
+        <img src="assets/images/logo.png" alt="logo" id="logo" />
+      </div>
+      <!-- Sidebar menu -->
+      <div id="navbar-menu">
+        <div id="navbar-list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        <!-- Sidebar menu -->
-        <div id="navbar-menu">
-            <div id="navbar-list">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="impact.html">Impact</a></li>
-                    <li> <a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+      </div>
     </div>
 
     <!-- Hero section -->
     <section id="impact-hero-section">
-        <!-- Main Content -->
-        <div class="impact-overlay">
-            <div class="impact-hero-description">
-                <div>Code & Community</div>
-                <P>The real measure of technology isn't in its complexity, lines of code or planning documents,
-                    it's in the communities strengthened and lives improved.
-
-                </P>
-            </div>
+      <!-- Main Content -->
+      <div class="impact-overlay">
+        <div class="impact-hero-description">
+          <div>Data Intelligence for Community Resilience</div>
+          <p>
+            Spatial data science and GIS analysis create the foundation for
+            informed decision-making. Real impact comes from transforming
+            complex data into actionable insights that strengthen communities
+            and advance equitable urban development.
+          </p>
         </div>
+      </div>
     </section>
     <!-- Community Numbers -->
     <section id="community-numbers">
-        <div class="impact-row">
-            <div class="impact-card">
-                <div class="number"><span class="visible">500+</span></div>
-                <div class="text-title">Lives Touched</div>
-                <div class="text-desc">Through digital solutions</div>
-            </div>
-
-            <div class="impact-card">
-                <div class="number"><span class="visible">12</span></div>
-                <div class="text-title">Organizations</div>
-                <div class="text-desc">Collaborated with</div>
-            </div>
-
-            <div class="impact-card">
-                <div class="number"><span class="visible">8</span></div>
-                <div class="text-title">Communities</div>
-                <div class="text-desc">Directly engaged</div>
-            </div>
-
-            <div class="impact-card">
-                <div class="number"><span class="visible">3</span></div>
-                <div class="text-title">Cities</div>
-                <div class="text-desc">Projects implemented</div>
-            </div>
+      <div class="impact-row">
+        <div class="impact-card">
+          <div class="number"><span class="visible">500+</span></div>
+          <div class="text-title">Lives Influenced</div>
+          <div class="text-desc">Through data-driven planning insights</div>
         </div>
+
+        <div class="impact-card">
+          <div class="number"><span class="visible">12</span></div>
+          <div class="text-title">Organizations</div>
+          <div class="text-desc">Collaborated with</div>
+        </div>
+
+        <div class="impact-card">
+          <div class="number"><span class="visible">8</span></div>
+          <div class="text-title">Communities</div>
+          <div class="text-desc">Directly engaged</div>
+        </div>
+
+        <div class="impact-card">
+          <div class="number"><span class="visible">3</span></div>
+          <div class="text-title">Cities</div>
+          <div class="text-desc">Projects implemented</div>
+        </div>
+      </div>
     </section>
     <!-- Testimonials -->
     <section class="testimonials-section">
-        <h2>Voices from the Community</h2>
-        <p>What colleagues and collaborators say about working at the intersection of code and community.</p>
-        <!-- Testimonial Cards -->
+      <h2>Voices from the Community</h2>
+      <p>
+        What colleagues and collaborators say about working with spatial data
+        science and urban planning insights.
+      </p>
+      <!-- Testimonial Cards -->
 
-        <div class="testimonials">
-            <div class="testimonial-card">
-                <div class="quote-icon"><img src="/assets/images/quote.png" alt="quote-icon"></div>
-                <div class="testimonial-text">
-                    "Bravin's unique perspective bridging technology and urban planning brought fresh insights to our
-                    smart city initiative. His solutions are both technically sound and community-focused."
-                </div>
-                <div class="testimonial-author">
-                    <div class="avatar">SK</div>
-                    <div class="author-info">
-                        <div class="author-name">Dr. Sarah Kimani</div>
-                        <div class="author-title">Urban Development Director</div>
-                    </div>
-                </div>
+      <div class="testimonials">
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <img src="/assets/images/quote.png" alt="quote-icon" />
+          </div>
+          <div class="testimonial-text">
+            "Bravin's spatial data science approach and planning expertise
+            transformed our urban challenges into evidence-based strategies. His
+            analyses inform every decision we make."
+          </div>
+          <div class="testimonial-author">
+            <div class="avatar">SK</div>
+            <div class="author-info">
+              <div class="author-name">Dr. Sarah Kimani</div>
+              <div class="author-title">Urban Development Director</div>
             </div>
-
-            <div class="testimonial-card">
-                <div class="quote-icon"><img src="/assets/images/quote.png" alt="quote-icon"></div>
-                <div class="testimonial-text">
-                    "Working with Bravin on the community mapping project was transformative. He understood not just the
-                    technical requirements, but the social implications of our work."
-                </div>
-                <div class="testimonial-author" style="padding-top: 24px;">
-                    <div class="avatar">MO</div>
-                    <div class="author-info">
-                        <div class="author-name">Michael Ochieng</div>
-                        <div class="author-title">Community Development Officer</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-card">
-                <div class="quote-icon"><img src="/assets/images/quote.png" alt="quote-icon"></div>
-                <div class="testimonial-text">
-                    "His ability to translate complex urban challenges into elegant digital solutions is remarkable.
-                    Bravin doesn't just code, he codes with purpose."
-                </div>
-                <div class="testimonial-author" style="padding-top: 44px;">
-                    <div class="avatar">GW</div>
-                    <div class="author-info">
-                        <div class="author-name">Prof. Grace Wanjiku</div>
-                        <div class="author-title">Planning Department Head</div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <img src="/assets/images/quote.png" alt="quote-icon" />
+          </div>
+          <div class="testimonial-text">
+            "His spatial analysis for our mapping project was transformative. He
+            understood the data requirements and the community implications,
+            ensuring insights truly served local needs."
+          </div>
+          <div class="testimonial-author" style="padding-top: 24px">
+            <div class="avatar">MO</div>
+            <div class="author-info">
+              <div class="author-name">Michael Ochieng</div>
+              <div class="author-title">Community Development Officer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-icon">
+            <img src="/assets/images/quote.png" alt="quote-icon" />
+          </div>
+          <div class="testimonial-text">
+            "His ability to translate complex urban data into meaningful spatial
+            intelligence is exceptional. Bravin doesn't just analyze data, he
+            analyzes it with purpose."
+          </div>
+          <div class="testimonial-author" style="padding-top: 44px">
+            <div class="avatar">GW</div>
+            <div class="author-info">
+              <div class="author-name">Prof. Grace Wanjiku</div>
+              <div class="author-title">Planning Department Head</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- People Who inspire Me -->
     <section class="inspiration-section">
-        <h2 class="inspiration-title">People Who Inspire Me</h2>
-        <p class="inspiration-subtext">
-            Thought leaders and changemakers who shaped my perspective on technology, urban planning, and social impact.
-        </p>
+      <h2 class="inspiration-title">People Who Inspire Me</h2>
+      <p class="inspiration-subtext">
+        Thought leaders and changemakers who shaped my perspective on
+        technology, urban planning, and social impact.
+      </p>
 
-        <div class="inspiration-grid">
-            <!-- Card 1 -->
-            <div class="inspire-card">
-                <img class="inspire-image" src="/assets/images/Patricia-Mwangi.webp" alt="Patricia Mwangi" />
-                <div class="name-overlay">Dr. Patricia Mwangi</div>
-                <div class="quote-overlay">"Cities have the capability of providing something for everybody."</div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="inspire-card">
-                <img class="inspire-image" src="/assets/images/chankjen-kim.webp" alt="Chankjen Kim" />
-                <div class="name-overlay">Chankjen Kim</div>
-                <div class="quote-overlay">"In order to be irreplaceable, one must always be different"</div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="inspire-card">
-                <img class="inspire-image" src="/assets/images/jacinta-mbilo.webp" alt="Jacinta Mbilo" />
-                <div class="name-overlay">Plnr. Jacinta Mbilo</div>
-                <div class="quote-overlay">"It's the little things citizens do that will make a difference."</div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="inspire-card">
-                <img class="inspire-image" src="/assets/images/constant-cap.webp" alt="Constant Cap" />
-                <div class="name-overlay">Constant Cap</div>
-                <div class="quote-overlay">"Open technologies empower people to shape their world."</div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="inspire-card">
-                <img class="inspire-image" src="/assets/images/charity-mwangi.webp" alt="Charity Mwangi" />
-                <div class="name-overlay">Charity Mwangi</div>
-                <div class="quote-overlay">"Design is a tool to improve lives, not just aesthetics."</div>
-            </div>
+      <div class="inspiration-grid">
+        <!-- Card 1 -->
+        <div class="inspire-card">
+          <img
+            class="inspire-image"
+            src="/assets/images/Patricia-Mwangi.webp"
+            alt="Patricia Mwangi"
+          />
+          <div class="name-overlay">Dr. Patricia Mwangi</div>
+          <div class="quote-overlay">
+            "Cities have the capability of providing something for everybody."
+          </div>
         </div>
+
+        <!-- Card 2 -->
+        <div class="inspire-card">
+          <img
+            class="inspire-image"
+            src="/assets/images/chankjen-kim.webp"
+            alt="Chankjen Kim"
+          />
+          <div class="name-overlay">Chankjen Kim</div>
+          <div class="quote-overlay">
+            "In order to be irreplaceable, one must always be different"
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="inspire-card">
+          <img
+            class="inspire-image"
+            src="/assets/images/jacinta-mbilo.webp"
+            alt="Jacinta Mbilo"
+          />
+          <div class="name-overlay">Plnr. Jacinta Mbilo</div>
+          <div class="quote-overlay">
+            "It's the little things citizens do that will make a difference."
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="inspire-card">
+          <img
+            class="inspire-image"
+            src="/assets/images/constant-cap.webp"
+            alt="Constant Cap"
+          />
+          <div class="name-overlay">Constant Cap</div>
+          <div class="quote-overlay">
+            "Open technologies empower people to shape their world."
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="inspire-card">
+          <img
+            class="inspire-image"
+            src="/assets/images/charity-mwangi.webp"
+            alt="Charity Mwangi"
+          />
+          <div class="name-overlay">Charity Mwangi</div>
+          <div class="quote-overlay">
+            "Design is a tool to improve lives, not just aesthetics."
+          </div>
+        </div>
+      </div>
     </section>
     <!-- My Philosphy section -->
     <section id="philosophy-section">
-        <h2 id="philosophy-title">My Philosophy</h2>
-        <p id="philosophy-quote">
-            "Technology should amplify human potential, not replace human connection.
-            Every line of code should serve a community, and every plan should be buildable,
-            both digitally and physically."
-        </p>
-        <!-- Card 1 -->
-        <div id="pillars-container">
-            <div id="pillar-card">
-                <img src="/assets/images/users-icon.png" alt="users-icon">
-                <div id="pillar-title">Community First</div>
-                <p id="pillar-text">
-                    Every solution begins with understanding the people it will serve.
-                </p>
-            </div>
-            <!-- Card 2 -->
-            <div id="pillar-card">
-                <img src="/assets/images/address-icon.png" alt="heart-icon">
-                <div id="pillar-title">Place Matters</div>
-                <p id="pillar-text">
-                    Context shapes everything, technology must respect local needs and culture.
-                </p>
-            </div>
-            <!-- card 3 -->
-            <div id="pillar-card">
-                <img src="/assets/images/heart-icon.png" alt="heart-icon">
-                <div id="pillar-title">Purpose Driven</div>
-                <p id="pillar-text">
-                    Building solutions that create positive change, not just convenience.
-                </p>
-            </div>
+      <h2 id="philosophy-title">My Philosophy</h2>
+      <p id="philosophy-quote">
+        "Data should illuminate human potential, not obscure it. Every analysis
+        should serve communities, and every insight should drive equitable,
+        sustainable, and climate-resilient urban development."
+      </p>
+      <!-- Card 1 -->
+      <div id="pillars-container">
+        <div id="pillar-card">
+          <img src="/assets/images/users-icon.png" alt="users-icon" />
+          <div id="pillar-title">Evidence-Based</div>
+          <p id="pillar-text">
+            Data, spatial analysis, and rigorous research inform every decision
+            and recommendation.
+          </p>
         </div>
+        <!-- Card 2 -->
+        <div id="pillar-card">
+          <img src="/assets/images/address-icon.png" alt="heart-icon" />
+          <div id="pillar-title">Spatial Understanding</div>
+          <p id="pillar-text">
+            Context and location shape outcomes; spatial intelligence informs
+            all solutions.
+          </p>
+        </div>
+        <!-- card 3 -->
+        <div id="pillar-card">
+          <img src="/assets/images/heart-icon.png" alt="heart-icon" />
+          <div id="pillar-title">Resilience-Oriented</div>
+          <p id="pillar-text">
+            Building insights that advance climate resilience, sustainability,
+            and equitable development.
+          </p>
+        </div>
+      </div>
     </section>
     <!-- To be reused -->
     <!-- Footer -->
     <footer id="footer-section">
-        <!-- Call To Action -->
-        <p id="cta-footer">"Built by a Planner Who Codes."</p>
-        <!-- Social Links -->
-        <div id="footer-social-links">
-            <a href="https://github.com/Vulimwa"><img src="/assets/images/github-icon.png" alt="github"></a>
-            <a href="https://www.linkedin.com/in/bravin-vulimwa-b65842292/"><img
-                    src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"></a>
-            <a href="mailto:vulimwabravin@gmail.com"><img src="/assets/images/email-outline-icon.png" alt="email"></a>
-        </div>
-        <p id="code-identity">Code4Cities</p>
-        <p id="copyright">© Bravin Vulimwa 2026. Building technology for smarter cities.</p>
+      <!-- Call To Action -->
+      <p id="cta-footer">"Data-driven Urban Futures."</p>
+      <!-- Social Links -->
+      <div id="footer-social-links">
+        <a href="https://github.com/Vulimwa"
+          ><img src="/assets/images/github-icon.png" alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/in/bravin-vulimwa-b65842292/"
+          ><img src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"
+        /></a>
+        <a href="mailto:vulimwabravin@gmail.com"
+          ><img src="/assets/images/email-outline-icon.png" alt="email"
+        /></a>
+      </div>
+      <p id="code-identity">Code4Cities</p>
+      <p id="copyright">
+        © Bravin Vulimwa 2026. Using data science and spatial intelligence to
+        advance urban resilience.
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
