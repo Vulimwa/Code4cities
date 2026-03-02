@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="google-site-verification"
+      content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8"
+    />
+    <title>Code4Cities | Certificates & Achievements</title>
+
+    <meta
+      name="description"
+      content="Portfolio of Bravin Vulimwa - Data Scientist and Urban & Regional Planner. Certifications, hackathon wins, and professional achievements in data science and urban planning."
+    />
+    <meta name="author" content="Bravin Vulimwa" />
+    <meta
+      name="keywords"
+      content="certificates, achievements, hackathons, data science, GIS, urban planning, professional development"
+    />
+
+    <meta
+      property="og:title"
+      content="Code4Cities - Certificates & Achievements"
+    />
+    <meta
+      property="og:description"
+      content="Data Scientist and Urban Planner certifications and professional achievements."
+    />
+    <meta
+      property="og:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://bravin-vulimwa.github.io/certificates.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Code4Cities - Certificates & Achievements"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Data Scientist and Urban Planner certifications and professional achievements."
+    />
+    <meta
+      name="twitter:image"
+      content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <!-- Sidebar Toggle -->
+    <input type="checkbox" id="menu-toggle" hidden />
+
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- Navigation -->
+    <div id="navbar">
+      <!-- Logo section -->
+      <div id="logo-img">
+        <img src="assets/images/logo.png" alt="logo" id="logo" />
+      </div>
+      <!-- Sidebar menu -->
+      <div id="navbar-menu">
+        <div id="navbar-list">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="impact.html">Impact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero section -->
+    <section id="certificates-hero-section">
+      <div class="certificates-overlay">
+        <div class="certificates-hero-description">
+          <div>Certifications & Achievements</div>
+          <p>
+            Professional credentials and recognition reflecting continuous
+            learning in data science, spatial analysis, and urban planning.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hackathons & Wins Section -->
+    <section id="achievements-section">
+      <div class="achievements-intro">
+        <h2>Hackathons & Competition Wins</h2>
+        <p>
+          Recognition and awards from professional competitions and hackathons.
+        </p>
+      </div>
+
+      <div class="achievements-grid">
+        <div
+          class="achievement-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="achievement-image">
+            <img src="assets/wins/AAK_WINNER.jpg" alt="AAK Challenge Winner" />
+          </div>
+          <h3>AAK Town Planners Chapter Competition 2025</h3>
+          <p class="achievement-desc">
+            Winner - Bridging the Divide: Equitable Infrastructure for Kenya's
+            Rapidly Urbanizing Areas. Recognized by the Architectural
+            Association of Kenya for innovative spatial planning solutions.
+          </p>
+        </div>
+
+        <div
+          class="achievement-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="achievement-image">
+            <img
+              src="assets/wins/geosk_win.jpg"
+              alt="GeoSK Competition Winner"
+            />
+          </div>
+          <h3>GeoSK Symposium 2025 - Maps & Posters</h3>
+          <p class="achievement-desc">
+            Winner - Maps & Posters Category. Demonstrated excellence in
+            geospatial innovation and data visualization at Kenya's premier
+            geospatial conference.
+          </p>
+        </div>
+
+        <div
+          class="achievement-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="achievement-image">
+            <img
+              src="assets/wins/ichawin_ai_challenge.jpg"
+              alt="ICHA AI Challenge Winner"
+            />
+          </div>
+          <h3>Taita Taveta AI Challenge</h3>
+          <p class="achievement-desc">
+            Top 5 Finalist. Competed at the Taita Taveta AI Challenge,
+            demonstrating expertise in artificial intelligence and machine
+            learning applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications-section">
+      <div class="certs-intro">
+        <h2>Professional Certifications</h2>
+        <p>
+          Formal credentials demonstrating expertise and commitment to
+          professional excellence.
+        </p>
+      </div>
+
+      <div class="certs-grid">
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/data-analytics-certificate-bravin-vulimwa.png"
+              alt="Data Analytics Certificate"
+            />
+          </div>
+          <h3 class="cert-title">Data Analytics Certification</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/professional_foundations_cert.jpg"
+              alt="Professional Foundations Certificate"
+            />
+          </div>
+          <h3 class="cert-title">Professional Foundations Certificate</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/silicon_leadership_training.jpeg"
+              alt="Silicon Leadership Training Certificate"
+            />
+          </div>
+          <h3 class="cert-title">Silicon Leadership Training</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/AAK.png"
+              alt="AAK Award Certificate"
+            />
+          </div>
+          <h3 class="cert-title">AAK Program Certificate</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/geosk_symposium.jpeg"
+              alt="GeoSK Symposium Certificate"
+            />
+          </div>
+          <h3 class="cert-title">GeoSK Symposium Certificate</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/ICHA_AI challenge.jpeg"
+              alt="ICHA AI Challenge Certificate"
+            />
+          </div>
+          <h3 class="cert-title">ICHA AI Challenge Certificate</h3>
+        </div>
+
+        <div
+          class="cert-card"
+          onclick="openCertModal(this)"
+          style="cursor: pointer"
+        >
+          <div class="cert-image">
+            <img
+              src="assets/certificates/greenwell_energies_hackathon.jpeg"
+              alt="Greenwell Energies Hackathon Certificate"
+            />
+          </div>
+          <h3 class="cert-title">Greenwell Energies Hackathon</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer-section" style="margin-top: none; padding-top: none">
+      <!-- Call To Action -->
+      <p id="cta-footer">"Data-driven Urban Futures."</p>
+      <!-- Social Links -->
+      <div id="footer-social-links">
+        <a href="https://github.com/Vulimwa"
+          ><img src="/assets/images/github-icon.png" alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/in/bravin-vulimwa-b65842292/"
+          ><img src="/assets/images/linkedin-lucide-icon.png" alt="LinkeIn"
+        /></a>
+        <a href="mailto:vulimwabravin@gmail.com"
+          ><img src="/assets/images/email-outline-icon.png" alt="email"
+        /></a>
+      </div>
+      <p id="code-identity">Code4Cities</p>
+      <p id="copyright">
+        © Bravin Vulimwa 2026. Using data science and spatial intelligence to
+        advance urban resilience.
+      </p>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certModal" class="cert-modal" onclick="closeCertModal()">
+      <div class="cert-modal-content" onclick="event.stopPropagation()">
+        <span class="cert-modal-close" onclick="closeCertModal()">&times;</span>
+        <img id="certModalImage" src="" alt="Certificate" />
+      </div>
+    </div>
+
+    <script>
+      function openCertModal(element) {
+        const modal = document.getElementById("certModal");
+        const modalImage = document.getElementById("certModalImage");
+        const imgElement = element.querySelector(".cert-image img");
+
+        modalImage.src = imgElement.src;
+        modalImage.alt = imgElement.alt;
+        modal.style.display = "block";
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeCertModal() {
+        const modal = document.getElementById("certModal");
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+
+      // Close modal when pressing Escape key
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          closeCertModal();
+        }
+      });
+    </script>
+  </body>
+</html>
