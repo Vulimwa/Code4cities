@@ -1,3 +1,31 @@
+/* Make View Project button fully clickable and styled */
+.view-project-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffd666;
+  color: #141d2e;
+  border-radius: 24px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px #a2a2a21a;
+  border: 1px solid #ffe9a7;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.view-project-btn:hover {
+  background: #ffe9a7;
+  color: #0d1a2b;
+  box-shadow: 0 4px 16px #ffd66655;
+}
 /* Main page styling */
 html {
   /* max-width: 1280px; */
