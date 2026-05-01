@@ -8,40 +8,44 @@
       name="google-site-verification"
       content="hUv3B-ijF9wu-FXwJ-geh0kfkqhxpqrdnzZrSDrGfS8"
     />
-    <title>Code4Cities | Projects</title>
+    <title>Bravin Vulimwa | Code4Cities Projects</title>
 
     <meta
       name="description"
-      content="Portfolio of Bravin Vulimwa - Data Scientist and Urban & Regional Planner. Using spatial analysis and GIS intelligence to solve urban and environmental challenges."
+      content="Bravin Vulimwa portfolio projects showcasing data analytics, GIS, infrastructure planning, and business intelligence for sustainable cities."
     />
     <meta name="author" content="Bravin Vulimwa" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bravin-vulimwa.github.io/projects.html" />
     <meta
       name="keywords"
-      content="data scientist, spatial analysis, GIS, urban planner, Code4Cities, Bravin Vulimwa, portfolio, urban planning, climate resilience, data science"
+      content="data analyst, spatial analysis, GIS, urban planner, Code4Cities, Bravin Vulimwa, portfolio, urban planning, climate resilience, data analytics"
     />
 
-    <meta property="og:title" content="Code4Cities - Bravin Vulimwa" />
+    <meta property="og:title" content="Bravin Vulimwa | Code4Cities Projects" />
     <meta
       property="og:description"
-      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+      content="Projects by Bravin Vulimwa showcasing GIS, data analytics, infrastructure planning, and business intelligence for sustainable cities."
     />
     <meta
       property="og:image"
       content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
     />
-    <meta property="og:url" content="https://bravin-vulimwa.github.io/" />
+    <meta property="og:url" content="https://bravin-vulimwa.github.io/projects.html" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Code4Cities" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Code4Cities - Bravin Vulimwa" />
+    <meta name="twitter:title" content="Bravin Vulimwa | Code4Cities Projects" />
 
     <meta
       name="twitter:description"
-      content="Data Scientist and Urban Planner using spatial intelligence and analytics to build decision-support systems for sustainable cities"
+      content="Explore portfolio projects by Bravin Vulimwa in data analytics, GIS, and urban planning."
     />
     <meta
       name="twitter:image"
       content="https://bravin-vulimwa.github.io/assets/images/portfolio-preview.png"
     />
+    <meta property="og:site_name" content="Code4Cities" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -54,6 +58,27 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.png" type="image/png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Bravin Vulimwa | Code4Cities Projects",
+        "description": "Portfolio of Bravin Vulimwa featuring GIS, data analytics, business intelligence, and infrastructure planning projects.",
+        "url": "https://bravin-vulimwa.github.io/projects.html",
+        "author": {
+          "@type": "Person",
+          "name": "Bravin Vulimwa"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Code4Cities",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bravin-vulimwa.github.io/assets/images/logo.png"
+          }
+        }
+      }
+    </script>
   </head>
 
   <body>
@@ -95,7 +120,7 @@
       <!-- Main Content -->
       <div class="projects-overlay">
         <div class="projects-hero-description">
-          <div>Data Science & Spatial Intelligence Projects</div>
+          <div>Data Analytics & Spatial Intelligence Projects</div>
           <p>
             A portfolio that spans spatial data analysis, GIS applications, and
             data-driven planning solutions, each grounded in urban planning
@@ -113,16 +138,25 @@
         <h2 id="project-section-title">Projects</h2>
       </div>
       <p id="project-section-subtext">
-        My portfolio demonstrates spatial data science and GIS applications that
+        My portfolio demonstrates spatial data analytics and GIS applications that
         translate urban challenges into evidence-based solutions using Python,
         SQL, spatial analysis, and advanced analytics to advance climate
         resilience and sustainable development.
       </p>
+      <div id="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gis">GIS</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+        <button class="filter-btn" data-filter="data">Data</button>
+      </div>
       <div id="project-grid">
         <!-- Card 1: Migori Town Business Survey Data Analysis -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="data">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://raw.githubusercontent.com/Vulimwa/Migori-Town-Business-Survey-Data-Analysis/main/results/overview_dashboard.png"
               alt="Migori Town Business Survey Overview Dashboard"
             />
@@ -174,9 +208,11 @@
         </div>
 
         <!-- Card 2 -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="gis">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.postimg.cc/j5kgnK0V/Gemini-Generated-Image-qz8ic8qz8ic8qz8i.png"
               alt="Hifadhi Link"
             />
@@ -220,14 +256,16 @@
         </div>
 
         <!-- Card 3 -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="data">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.postimg.cc/s21B2JwS/Gemini-Generated-Image-fxqmhkfxqmhkfxqm.png"
               alt="WildGuard"
             />
             <div class="plan-badge" id="project-top-tag">
-              Data Science & Utilities
+              Data Analytics & Utilities
             </div>
             <div class="badge" id="project-status">Active</div>
           </div>
@@ -266,14 +304,16 @@
         </div>
 
         <!-- Card 3.5 -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="infrastructure">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="/assets/images/majindogo_dashboard.png"
               alt="Maji Ndogo PowerBI Dashboard"
             />
             <div class="plan-badge" id="project-top-tag">
-              Business Intelligence
+              Business & Infrastructure
             </div>
             <div class="badge" id="project-status">Published</div>
           </div>
@@ -290,6 +330,7 @@
               <span>Interactive Dashboards</span>
               <span>Data Visualization</span>
               <span>Decision Support</span>
+              <span>Infrastructure Planning</span>
             </div>
             <div class="project-card-footer" id="project-main-footer">
               <div id="inner-footer-content">
@@ -313,9 +354,11 @@
         </div>
 
         <!-- Card 4 (originally 3) -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="gis">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.postimg.cc/FHTMZbmZ/Screenshot-2025-03-30-042733.png"
               alt="Sagalla-Marungu Plan"
             />
@@ -359,9 +402,11 @@
         </div>
 
         <!-- Card 5 (originally 4) -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="data">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.postimg.cc/RVKfKG1v/Gemini-Generated-Image-bntmtkbntmtkbntm.png"
               alt="Airquality Analysis"
             />
@@ -403,9 +448,11 @@
           </div>
         </div>
         <!-- Card 6 (originally 5) -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="data">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="https://i.postimg.cc/9XpzhSBD/Gemini-Generated-Image-gxrpregxrpregxrp.png"
               alt="Community Database"
             />
@@ -446,9 +493,11 @@
         </div>
 
         <!-- Card 6 -->
-        <div id="project-card-title" class="project-card">
+        <div id="project-card-title" class="project-card" data-sector="gis">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
               src="/assets/images/Pond Suitability.jpg"
               alt="Pond Suitability Analysis"
             />
@@ -488,10 +537,58 @@
           </div>
         </div>
 
-        <!-- Card 7 -->
-        <div id="project-card-title" class="project-card">
+        <!-- Card 6.5 -->
+        <div id="project-card-title" class="project-card" data-sector="business">
           <div id="plan" class="card-image">
             <img
+              loading="lazy"
+              decoding="async"
+              src="/assets/images/dashboard_home.jpg"
+              alt="Pizza Sales Performance Dashboard"
+            />
+            <div class="plan-badge" id="project-top-tag">
+              Business Intelligence
+            </div>
+            <div class="badge" id="project-status">Published</div>
+          </div>
+          <div class="project-card-content">
+            <h3 id="project-main-title">Pizza Sales Performance Dashboard</h3>
+            <p id="project-main-desc">
+              A fully interactive Power BI dashboard backed by SQL-powered data
+              transformation to monitor pizza sales, ordering patterns, and menu
+              performance for a restaurant chain.
+            </p>
+            <div id="project-main-tags">
+              <span>MySQL</span>
+              <span>SQL</span>
+              <span>Power BI</span>
+              <span>Data Visualization</span>
+              <span>Business Intelligence</span>
+            </div>
+            <div class="project-card-footer" id="project-main-footer">
+              <div id="inner-footer-content">
+                <img
+                  src="/assets/images/map-icon.png"
+                  alt="link-external-icon"
+                  id="external-link"
+                />
+                <a href="https://github.com/Vulimwa/pizza_sales_report" target="_blank" rel="noopener noreferrer"
+                  >View Project</a
+                >
+              </div>
+              <span id="github-icon"
+                ><img src="/assets/images/github-icon.png" alt="github-icon"
+              /></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div id="project-card-title" class="project-card" data-sector="gis">
+          <div id="plan" class="card-image">
+            <img
+              loading="lazy"
+              decoding="async"
               src="/assets/images/Encroachment.png"
               alt="Encroachment Analysis"
             />
@@ -579,9 +676,31 @@
       </div>
       <p id="code-identity">Code4Cities</p>
       <p id="copyright">
-        © Bravin Vulimwa 2026. Using data science and spatial intelligence to
+        © Bravin Vulimwa 2026. Using data analytics and spatial intelligence to
         advance urban resilience.
       </p>
     </footer>
-  </body>
+
+    <script>
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const projectCards = document.querySelectorAll(".project-card");
+
+      function filterProjects(filter) {
+        projectCards.forEach((card) => {
+          const sector = card.dataset.sector || "all";
+          card.style.display = filter === "all" || sector === filter ? "block" : "none";
+        });
+      }
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          button.classList.add("active");
+          filterProjects(button.dataset.filter);
+        });
+      });
+
+      // Initialize default filter
+      filterProjects("all");
+    </script>
 </html>
